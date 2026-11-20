@@ -1,0 +1,93 @@
+{
+  "run": "2026-11-20T05-37-21-298Z",
+  "browser": "Installed Google Chrome, headless",
+  "base": "https://pulselite-web.vercel.app",
+  "account": "chrome-test-1795153041300@pulselite.test",
+  "siteId": 3,
+  "siteName": "CHROME TEST · Form & Field",
+  "passed": 12,
+  "failed": 1,
+  "results": [
+    {
+      "name": "Home renders original identity and illustrative preview",
+      "pass": true
+    },
+    {
+      "name": "Keyboard skip link reaches main content",
+      "pass": true
+    },
+    {
+      "name": "Signup page and accessibility",
+      "pass": true
+    },
+    {
+      "name": "Real signup establishes HTTP-only owner session",
+      "pass": true
+    },
+    {
+      "name": "Owner adds exact-origin test website",
+      "pass": true
+    },
+    {
+      "name": "Snippet copy button copies real public key",
+      "pass": true
+    },
+    {
+      "name": "Unvisited website has install-oriented empty state",
+      "pass": true
+    },
+    {
+      "name": "Real demo installation sends no cookies and strips URL secrets",
+      "pass": true
+    },
+    {
+      "name": "Dashboard receives real views and approximate visitor count",
+      "pass": true
+    },
+    {
+      "name": "Live view displays actual last-five-minute visitor",
+      "pass": true
+    },
+    {
+      "name": "CSV export downloads real aggregated data",
+      "pass": true
+    },
+    {
+      "name": "Page filter and preset date ranges update actual query results",
+      "pass": true
+    },
+    {
+      "name": "Populated sites list and sign-out/sign-in journey",
+      "pass": false,
+      "error": "Owner site missing"
+    }
+  ],
+  "audits": [
+    {
+      "label": "home-desktop-light",
+      "violations": []
+    },
+    {
+      "label": "signup-desktop-light",
+      "violations": []
+    },
+    {
+      "label": "sites-empty",
+      "violations": []
+    },
+    {
+      "label": "snippet",
+      "violations": []
+    },
+    {
+      "label": "empty-dashboard",
+      "violations": []
+    },
+    {
+      "label": "real-dashboard",
+      "violations": []
+    }
+  ],
+  "consoleErrors": [],
+  "failedRequests": []
+}

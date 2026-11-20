@@ -10,6 +10,8 @@ An original, privacy-conscious website analytics application. React + TypeScript
 - Backend health: https://pulselite-backend.vercel.app/health
 - Sample website: https://pulselite-demo.vercel.app
 - Synthetic analytics demo: https://pulselite-web.vercel.app/demo
+- Source: https://github.com/DIVYAPRIYADHARSHINI-GIT/pulselite
+- Verification report: [Markdown](FINAL_REPORT.md) · [PDF](FINAL_REPORT.pdf)
 
 The public hosting is a **personal, non-commercial demonstrator on free plans**, not an offer of commercial hosting or a production SLA. See [DEPLOY.md](DEPLOY.md) and the final report for verified results and limitations.
 
@@ -49,7 +51,7 @@ cd ../backend
 
 In another terminal, run `npm run dev` in `frontend`. Open **http://localhost:5173**, not the 127.0.0.1 spelling: the dashboard Origin check is exact. In a third terminal, run `.venv/bin/python tests/serve_demo.py` from the repository root and open **http://localhost:4174**. Vite proxies `/api` to port 8000. All local database files remain ignored by git.
 
-No credentials are bundled. Sign up with your own account. The synthetic demo is public/read-only; its disabled demo-owner account has a randomly generated, undisclosed password. The seed command is idempotent for that demo site and replaces only its synthetic events.
+No credentials are bundled. Sign up with your own account. The synthetic demo is public/read-only; its seed-only owner has a randomly generated, undisclosed password, not a shared demo login. The seed command is idempotent for that demo site and replaces only its synthetic events.
 
 ## Install the tracker
 

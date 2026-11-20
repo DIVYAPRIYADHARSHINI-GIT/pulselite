@@ -1,0 +1,5 @@
+Stage: final-report-pdf
+Time: 20261120-111210-352621 Asia/Kolkata
+Exit: 0
+
+PDF exported from the actual Markdown report; all referenced screenshots loaded.

@@ -1,0 +1,5 @@
+Pagination follow-up · 20 November 2026, 11:14 Asia/Kolkata
+
+The first pagination edit removed the redundant Delivery paragraph but left the final Maintenance paragraph isolated after the added bug explanation shifted text. The second PDF export therefore still had 25 pages; this did not resolve the presentation issue completely.
+
+Final layout correction: start the final Known limits section on a dedicated page using print CSS, so the entire concluding section reads together rather than ending with an orphan paragraph. The original 25-page failure PDF remains in bugs/026-initial-report-orphan-page.pdf. The export transcripts and this follow-up record are retained; no content or failure evidence is hidden.

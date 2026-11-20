@@ -1,0 +1,144 @@
+{
+  "run": "2026-11-20T05-48-17-541Z",
+  "browser": "Installed Google Chrome, headless",
+  "base": "https://pulselite-web.vercel.app",
+  "account": "chrome-test-1795153697541@pulselite.test",
+  "siteId": 5,
+  "siteName": "CHROME TEST · Form & Field",
+  "passed": 20,
+  "failed": 0,
+  "results": [
+    {
+      "name": "Home renders original identity and illustrative preview",
+      "pass": true
+    },
+    {
+      "name": "Keyboard skip link reaches main content",
+      "pass": true
+    },
+    {
+      "name": "Signup page and accessibility",
+      "pass": true
+    },
+    {
+      "name": "Real signup establishes HTTP-only owner session",
+      "pass": true
+    },
+    {
+      "name": "Owner adds exact-origin test website",
+      "pass": true
+    },
+    {
+      "name": "Snippet copy button copies real public key",
+      "pass": true
+    },
+    {
+      "name": "Unvisited website has install-oriented empty state",
+      "pass": true
+    },
+    {
+      "name": "Real demo installation sends no cookies and strips URL secrets",
+      "pass": true
+    },
+    {
+      "name": "Dashboard receives real views and approximate visitor count",
+      "pass": true
+    },
+    {
+      "name": "Live view displays actual last-five-minute visitor",
+      "pass": true
+    },
+    {
+      "name": "CSV export downloads real aggregated data",
+      "pass": true
+    },
+    {
+      "name": "Page filter and preset date ranges update actual query results",
+      "pass": true
+    },
+    {
+      "name": "Populated sites list and sign-out/sign-in journey",
+      "pass": true
+    },
+    {
+      "name": "Synthetic demo is clearly labelled and SQL-backed",
+      "pass": true
+    },
+    {
+      "name": "Direct referrer filter works after regression fix",
+      "pass": true
+    },
+    {
+      "name": "Desktop dark theme is persistent and accessible",
+      "pass": true
+    },
+    {
+      "name": "Mobile dashboard layout and dark accessibility",
+      "pass": true
+    },
+    {
+      "name": "Mobile light dashboard and keyboard filters",
+      "pass": true
+    },
+    {
+      "name": "Mobile home and privacy content are accessible",
+      "pass": true
+    },
+    {
+      "name": "No unexpected console errors or network failures",
+      "pass": true
+    }
+  ],
+  "audits": [
+    {
+      "label": "home-desktop-light",
+      "violations": []
+    },
+    {
+      "label": "signup-desktop-light",
+      "violations": []
+    },
+    {
+      "label": "sites-empty",
+      "violations": []
+    },
+    {
+      "label": "snippet",
+      "violations": []
+    },
+    {
+      "label": "empty-dashboard",
+      "violations": []
+    },
+    {
+      "label": "real-dashboard",
+      "violations": []
+    },
+    {
+      "label": "demo-desktop-light",
+      "violations": []
+    },
+    {
+      "label": "demo-desktop-dark",
+      "violations": []
+    },
+    {
+      "label": "demo-mobile-dark",
+      "violations": []
+    },
+    {
+      "label": "demo-mobile-light",
+      "violations": []
+    },
+    {
+      "label": "home-mobile-light",
+      "violations": []
+    },
+    {
+      "label": "privacy-mobile-light",
+      "violations": []
+    }
+  ],
+  "consoleErrors": [],
+  "failedRequests": []
+}

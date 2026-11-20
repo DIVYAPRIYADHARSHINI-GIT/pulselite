@@ -1,0 +1,5 @@
+Stage: final-report-layout-verified
+Time: 20261120-111528-418124 Asia/Kolkata
+Exit: 0
+
+PDF exported from the actual Markdown report; all referenced screenshots loaded.

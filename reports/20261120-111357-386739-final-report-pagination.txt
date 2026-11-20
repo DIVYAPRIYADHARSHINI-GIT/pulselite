@@ -1,0 +1,5 @@
+Stage: final-report-pagination
+Time: 20261120-111357-386739 Asia/Kolkata
+Exit: 0
+
+PDF exported from the actual Markdown report; all referenced screenshots loaded.

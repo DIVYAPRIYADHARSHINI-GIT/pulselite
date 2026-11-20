@@ -1,0 +1,27 @@
+{
+  "results": [
+    {
+      "name": "Mobile signup dark theme has zero axe violations",
+      "pass": true
+    },
+    {
+      "name": "Loading state is visible and announced while data waits",
+      "pass": true
+    },
+    {
+      "name": "Friendly error and Retry recover from a simulated service error",
+      "pass": true
+    },
+    {
+      "name": "Custom range and data-table keyboard alternative work",
+      "pass": true
+    },
+    {
+      "name": "Tablet dashboard has no horizontal overflow",
+      "pass": true
+    }
+  ],
+  "passed": 5,
+  "failed": 0,
+  "notes": "The 503 response was deliberately injected by the test; not a production incident."
+}

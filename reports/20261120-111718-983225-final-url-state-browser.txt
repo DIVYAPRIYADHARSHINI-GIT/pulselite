@@ -1,0 +1,10 @@
+Stage: final-url-state-browser
+Time: 20261120-111718-983225 Asia/Kolkata
+Exit: 0
+
+PASS Mobile signup dark theme has zero axe violations
+PASS Loading state is visible and announced while data waits
+PASS Friendly error and Retry recover from a simulated service error
+PASS Custom range and data-table keyboard alternative work
+PASS Tablet dashboard has no horizontal overflow
+5 passed; 0 failed

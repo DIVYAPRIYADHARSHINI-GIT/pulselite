@@ -70,7 +70,24 @@ Generated from actual retained files. Repeated suite runs are not additional uni
 | [20261120-110516-411237-stage6-unit-clean.txt](../reports/20261120-110516-411237-stage6-unit-clean.txt) | 0 | 25 passed[39m[22m[90m (25)[39m |
 | [20261120-110517-414728-stage6-build-clean.txt](../reports/20261120-110517-414728-stage6-build-clean.txt) | 0 | Command transcript; no test count claimed |
 | [20261120-110519-511233-stage6-extra-browser-retry.txt](../reports/20261120-110519-511233-stage6-extra-browser-retry.txt) | 0 | 5 passed; 0 failed |
+| [20261120-110638-814101-stage6-final-ui-deploy.txt](../reports/20261120-110638-814101-stage6-final-ui-deploy.txt) | 0 | Command transcript; no test count claimed |
 | [20261120-110641-415047-local-test-cleanup.txt](../reports/20261120-110641-415047-local-test-cleanup.txt) | 0 | Command transcript; no test count claimed |
+| [20261120-110642-467689-staged-secret-size-audit.txt](../reports/20261120-110642-467689-staged-secret-size-audit.txt) | 0 | Command transcript; no test count claimed |
+| [20261120-110643-943327-final-live-health.txt](../reports/20261120-110643-943327-final-live-health.txt) | 0 | 2 passed; synthetic pageviews: 5719 |
+| [20261120-110718-401350-github-prepush-audit.txt](../reports/20261120-110718-401350-github-prepush-audit.txt) | 0 | Command transcript; no test count claimed |
+| [20261120-110720-961688-stage6-final-live-journey.txt](../reports/20261120-110720-961688-stage6-final-live-journey.txt) | 1 | Browser checks: 12 passed, 1 failed. 6 axe audits attempted. Test account: chrome-test-1795153041300@pulselite.test; site id: 3. |
+| [20261120-110722-714254-github-create-and-push.txt](../reports/20261120-110722-714254-github-create-and-push.txt) | 0 | Command transcript; no test count claimed |
+| [20261120-110845-321284-stage6-live-ready-state-retry.txt](../reports/20261120-110845-321284-stage6-live-ready-state-retry.txt) | 0 | Browser checks: 20 passed, 0 failed. 12 axe audits attempted. Test account: chrome-test-1795153125659@pulselite.test; site id: 4. |
+| [20261120-111210-352621-final-report-pdf.txt](../reports/20261120-111210-352621-final-report-pdf.txt) | 0 | Command transcript; no test count claimed |
+| [20261120-111357-386739-final-report-pagination.txt](../reports/20261120-111357-386739-final-report-pagination.txt) | 0 | Command transcript; no test count claimed |
+| [20261120-111528-418124-final-report-layout-verified.txt](../reports/20261120-111528-418124-final-report-layout-verified.txt) | 0 | Command transcript; no test count claimed |
+| [20261120-111715-911670-final-url-state-unit.txt](../reports/20261120-111715-911670-final-url-state-unit.txt) | 0 | 25 passed[39m[22m[90m (25)[39m |
+| [20261120-111716-866711-final-url-state-build.txt](../reports/20261120-111716-866711-final-url-state-build.txt) | 0 | Command transcript; no test count claimed |
+| [20261120-111718-983225-final-url-state-browser.txt](../reports/20261120-111718-983225-final-url-state-browser.txt) | 0 | 5 passed; 0 failed |
+| [20261120-111722-262374-final-url-state-deploy.txt](../reports/20261120-111722-262374-final-url-state-deploy.txt) | 0 | Command transcript; no test count claimed |
+| [20261120-111817-263217-final-release-live-journey.txt](../reports/20261120-111817-263217-final-release-live-journey.txt) | 0 | Browser checks: 20 passed, 0 failed. 12 axe audits attempted. Test account: chrome-test-1795153697541@pulselite.test; site id: 5. |
+| [20261120-111950-865267-delivery-pdf-final.txt](../reports/20261120-111950-865267-delivery-pdf-final.txt) | 0 | Command transcript; no test count claimed |
+| [20261120-112105-781143-final-delivery-secret-size-audit.txt](../reports/20261120-112105-781143-final-delivery-secret-size-audit.txt) | 0 | Command transcript; no test count claimed |
 
 ## Permanent bug records
 
@@ -82,6 +99,10 @@ Generated from actual retained files. Repeated suite runs are not additional uni
 - [016-second-browser-stall.txt](../bugs/016-second-browser-stall.txt)
 - [020-keepalive-body-diagnosis.txt](../bugs/020-keepalive-body-diagnosis.txt)
 - [025-react-svg-title-warning.txt](../bugs/025-react-svg-title-warning.txt)
+- [026-initial-report-orphan-page.pdf](../bugs/026-initial-report-orphan-page.pdf)
+- [026-report-pagination-review.txt](../bugs/026-report-pagination-review.txt)
+- [027-report-pagination-followup.txt](../bugs/027-report-pagination-followup.txt)
+- [028-date-preset-source-review.txt](../bugs/028-date-preset-source-review.txt)
 - [2026-11-20T04-34-18-019Z-1-failure.png](../bugs/2026-11-20T04-34-18-019Z-1-failure.png)
 - [2026-11-20T04-34-18-019Z-1-failure.txt](../bugs/2026-11-20T04-34-18-019Z-1-failure.txt)
 - [2026-11-20T04-34-18-019Z-browser-diagnostic.json](../bugs/2026-11-20T04-34-18-019Z-browser-diagnostic.json)
@@ -115,6 +136,9 @@ Generated from actual retained files. Repeated suite runs are not additional uni
 - [2026-11-20T05-29-12-675Z-browser-diagnostic.json](../bugs/2026-11-20T05-29-12-675Z-browser-diagnostic.json)
 - [2026-11-20T05-34-05-050Z-extra-1.png](../bugs/2026-11-20T05-34-05-050Z-extra-1.png)
 - [2026-11-20T05-34-05-050Z-extra-1.txt](../bugs/2026-11-20T05-34-05-050Z-extra-1.txt)
+- [2026-11-20T05-37-21-298Z-13-failure.png](../bugs/2026-11-20T05-37-21-298Z-13-failure.png)
+- [2026-11-20T05-37-21-298Z-13-failure.txt](../bugs/2026-11-20T05-37-21-298Z-13-failure.txt)
+- [2026-11-20T05-37-21-298Z-browser-diagnostic.json](../bugs/2026-11-20T05-37-21-298Z-browser-diagnostic.json)
 - [20261120-095657-865260-stage1-install-FAILURE.txt](../bugs/20261120-095657-865260-stage1-install-FAILURE.txt)
 - [20261120-095813-621125-stage1-backend-tests-FAILURE.txt](../bugs/20261120-095813-621125-stage1-backend-tests-FAILURE.txt)
 - [20261120-095830-832735-dependency-audit-FAILURE.txt](../bugs/20261120-095830-832735-dependency-audit-FAILURE.txt)
@@ -133,6 +157,7 @@ Generated from actual retained files. Repeated suite runs are not additional uni
 - [20261120-105912-291428-stage4-chrome-metric-waits-FAILURE.txt](../bugs/20261120-105912-291428-stage4-chrome-metric-waits-FAILURE.txt)
 - [20261120-105920-214356-stage5-postgres-build-FAILURE.txt](../bugs/20261120-105920-214356-stage5-postgres-build-FAILURE.txt)
 - [20261120-110404-703376-stage6-extra-browser-FAILURE.txt](../bugs/20261120-110404-703376-stage6-extra-browser-FAILURE.txt)
+- [20261120-110720-961688-stage6-final-live-journey-FAILURE.txt](../bugs/20261120-110720-961688-stage6-final-live-journey-FAILURE.txt)
 
 ## Real screenshots
 

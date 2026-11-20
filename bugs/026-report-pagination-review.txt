@@ -1,0 +1,5 @@
+PDF visual-review finding · 20 November 2026, 11:12 Asia/Kolkata
+
+The initial export succeeded with all images loaded, but visual inspection showed 25 pages, with only the redundant final Delivery paragraph on page 25. This is a pagination/presentation issue, not missing content or a failed PDF export.
+
+The complete original PDF is permanently preserved as 026-initial-report-orphan-page.pdf before any regeneration. The redundant delivery paragraph is removed from the Markdown (its information is already in the overview and README), then the report is exported again and visually checked. No earlier failure evidence is removed or renamed.

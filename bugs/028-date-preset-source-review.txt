@@ -1,0 +1,7 @@
+Final source-review finding · 20 November 2026, Asia/Kolkata
+
+The date-range dropdown initialized with useState('7') even when the URL already contained a different selected date range. Statistics used the URL correctly, but reloading a today/custom range could label the dropdown Last 7 days. This was found by inspecting the source, not by inventing an earlier failed browser result.
+
+Fix: derive the initial preset from the inclusive UTC dates in the URL, synchronize it when dates change, and synchronize the page input with its URL filter. Custom-range editing remains available without changing the query until Apply.
+
+The existing custom-range browser check is extended to reload a today-range URL and assert the dropdown reads Today (value 1), then verify its accessible table has one day. Suite count remains five named checks. Verification results follow in the actual test transcripts.

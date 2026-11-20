@@ -1,0 +1,6 @@
+Populated sites list and sign-out/sign-in journey
+Error: Owner site missing
+    at assert (file:///Users/softage/Designer%20Projects/starter/pulselite/tests/browser.mjs:34:48)
+    at file:///Users/softage/Designer%20Projects/starter/pulselite/tests/browser.mjs:77:199
+    at async check (file:///Users/softage/Designer%20Projects/starter/pulselite/tests/browser.mjs:33:45)
+    at async file:///Users/softage/Designer%20Projects/starter/pulselite/tests/browser.mjs:77:2

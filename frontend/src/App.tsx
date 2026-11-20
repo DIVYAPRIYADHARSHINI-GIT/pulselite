@@ -37,7 +37,11 @@ function Dashboard({demo = false}: {demo?:boolean}) {
   const {id} = useParams(); const [params,setParams] = useSearchParams();
   const initial = utcRange(7); const start = params.get('start') || initial.start, end = params.get('end') || initial.end;
   const filterPage = params.get('page') || ''; const [pageDraft,setPageDraft] = useState(filterPage);
-  const [rangeMode,setRangeMode] = useState('7'), [liveOpen,setLiveOpen] = useState(false), [exported,setExported] = useState(''), [exportError,setExportError] = useState('');
+  const daysInUrl = Math.round((Date.parse(end) - Date.parse(start)) / 86400000) + 1;
+  const presetFromUrl = end === utcRange(1).end && [1,7,30].includes(daysInUrl) ? String(daysInUrl) : 'custom';
+  const [rangeMode,setRangeMode] = useState(presetFromUrl), [liveOpen,setLiveOpen] = useState(false), [exported,setExported] = useState(''), [exportError,setExportError] = useState('');
+  useEffect(() => { setRangeMode(presetFromUrl); }, [start, end, presetFromUrl]);
+  useEffect(() => { setPageDraft(filterPage); }, [filterPage]);
   const query = new URLSearchParams(params); query.set('start',start);query.set('end',end);
   const resource = useResource<Stats>(`${demo?'/demo':`/sites/${id}`}/stats?${query}`,15000);
   const data = resource.data;

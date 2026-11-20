@@ -15,7 +15,7 @@ Cold starts can occur in both the Python function and the sleeping database. The
 | Resource | Name / URL |
 |---|---|
 | GitHub account | DIVYAPRIYADHARSHINI-GIT |
-| Repository requested | pulselite |
+| Public repository | https://github.com/DIVYAPRIYADHARSHINI-GIT/pulselite |
 | Vercel scope | divya-6411 (Divya, Hobby) |
 | Backend project | pulselite-backend / https://pulselite-backend.vercel.app |
 | Frontend project | pulselite-web / https://pulselite-web.vercel.app |

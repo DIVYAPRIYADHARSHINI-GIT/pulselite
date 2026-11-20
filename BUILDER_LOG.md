@@ -108,3 +108,26 @@ Command exited 1. Full original diagnostic saved in bugs/20261120-105920-214356-
 ### 20261120-110404-703376 — failure: stage6-extra-browser
 
 Command exited 1. Full original diagnostic saved in bugs/20261120-110404-703376-stage6-extra-browser-FAILURE.txt. Investigation and fix follow; evidence retained.
+
+### 20261120-110720-961688 — failure: stage6-final-live-journey
+
+Command exited 1. Full original diagnostic saved in bugs/20261120-110720-961688-stage6-final-live-journey-FAILURE.txt. Investigation and fix follow; evidence retained.
+
+## 20 November 2026 · Final verification and publication
+
+- Expanded frontend coverage to **25 unit/component tests**. React's server renderer exposed a multi-child SVG title warning despite passing assertions. Replaced it with one string child; clean rerun passed 25 without the warning. Warning record is permanent.
+- Extended Chrome fixture first failed because axe requires an explicit BrowserContext, not the browser.newPage convenience context. Corrected it; **5/5 extended checks pass**, including mobile dark sign-up, visible loading, deliberate 503 recovery, custom dates/keyboard table and tablet overflow. The simulated 503 screenshot is labelled as intentional, not a live outage.
+- Public full journey passed **20/20** at 11:03 with 12 clean axe audits. A final UI-title-only deployment was followed by another full run; that run hit a premature sites-list assertion while the screenshot visibly showed loading (12 passed, 1 failed). Added an explicit heading readiness wait, plus a production Secure-cookie assertion. Final live retry at 11:08 passed **20/20**, 12 clean axe audits, no unexpected console/network errors.
+- Local final capture run also passed **20/20** with 12 clean axe audits. The combined latest local/live/extra audits comprise **25 page audits**, nested inside named browser checks rather than double-counted as additional unique checks.
+- Three cloud Chrome test accounts remain, explicitly listed in FINAL_REPORT.md (site ids 2, 3 and 4). Local cleanup removed **11 labelled test accounts, 11 sites and 16 events**, keeping the intended synthetic demo. No hosted data was deleted by the local cleanup script.
+- Later evidence inventory found that the two manually stopped browser child processes did save final JSON with 7 passes and 1 target-closed failure each. Their outer command runs were interrupted; the original interruption records remain unchanged, and the final report distinguishes this from a normally completed suite.
+- Public health and seeded SQL aggregation were rechecked successfully. All three application URLs are public and actual browser requests work without CORS errors. A free-tier commercial launch is not claimed; Hobby's personal/non-commercial restriction is documented.
+- First staged audit: 263 files, 11,045,439 bytes, no forbidden paths/secret patterns or >5 MiB file. Immediate pre-push audit: 267 files, 11,048,344 bytes, no issues. Created and pushed the public GitHub repository at https://github.com/DIVYAPRIYADHARSHINI-GIT/pulselite with local-only requested identity. Git-push auto-deployment was not configured or claimed.
+- README, DEPLOY and the seven-section FINAL_REPORT now describe actual results, every issue category, honest privacy/hosting limits and test data. All earlier error evidence is retained. PDF generation and final report commit are the remaining delivery steps at this checkpoint.
+
+## 20 November 2026 · Report review and final release check
+
+- Exported the Markdown and actual screenshot files into a PDF. The first visual review found an orphan final paragraph. Preserved the entire initial PDF in bugs/026-initial-report-orphan-page.pdf and retained a diagnostic. The first edit was insufficient; its follow-up is recorded. Dedicated print pagination for the concluding limits section resolved the orphan. The reviewed PDF has 25 pages, with real screenshots/captions and the complete concluding section together.
+- Final source review found a hardcoded date-preset label on URL reload. Documented the finding before verification, synchronized the preset/page input with URL state, and extended the existing custom-range check to reload and assert Today. Unit tests remain **25/25**; extended browser checks remain **5/5**, now including that reload assertion. No extra passing-test count was invented for the added assertion.
+- Deployed that UI correction, then repeated the entire public journey at 11:18: **20 passed, 0 failed**, 12 clean axe audits and zero unexpected console/network errors. This created the fourth explicitly listed hosted test account/site (id 5). Final report inventory now includes cloud site ids 2, 3, 4 and 5; no additional local owner accounts were created after cleanup.
+- The final release source, evidence index and report are prepared for a fresh staged secret/size audit and final main-branch push. No generated .env.local remains; no credential file was opened. Only project-local servers and files were used for local verification.

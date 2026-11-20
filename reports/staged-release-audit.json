@@ -1,6 +1,6 @@
 {
-  "staged_files": 263,
-  "total_bytes": 11045439,
+  "staged_files": 44,
+  "total_bytes": 5325102,
   "max_individual_bytes": 5242880,
   "issues": [],
   "note": "Pattern scan plus ignored-path/size check; not a mathematical guarantee that every possible secret format is detected."
