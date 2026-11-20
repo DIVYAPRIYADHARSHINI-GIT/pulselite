@@ -1,0 +1,6 @@
+Unvisited website has install-oriented empty state
+Error: Missing empty state
+    at assert (file:///Users/softage/Designer%20Projects/starter/pulselite/tests/browser.mjs:33:48)
+    at file:///Users/softage/Designer%20Projects/starter/pulselite/tests/browser.mjs:45:164
+    at async check (file:///Users/softage/Designer%20Projects/starter/pulselite/tests/browser.mjs:32:35)
+    at async file:///Users/softage/Designer%20Projects/starter/pulselite/tests/browser.mjs:45:2

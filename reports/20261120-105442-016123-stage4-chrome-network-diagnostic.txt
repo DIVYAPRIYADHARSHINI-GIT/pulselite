@@ -1,0 +1,20 @@
+Stage: stage4-chrome-network-diagnostic
+Time: 20261120-105442-016123 Asia/Kolkata
+Exit: 1
+
+PASS Home renders original identity and illustrative preview
+PASS Keyboard skip link reaches main content
+PASS Signup page and accessibility
+PASS Real signup establishes HTTP-only owner session
+PASS Owner adds exact-origin test website
+PASS Snippet copy button copies real public key
+PASS Unvisited website has install-oriented empty state
+Demo diagnostic: creating visitor browser context
+Demo diagnostic: context created; setting test-only cookie
+Demo diagnostic: cookie set; opening sample website
+Demo diagnostic: form filled; connecting tracker
+Demo diagnostic: collector request and response received
+Demo diagnostic: reading complete network headers
+Demo diagnostic: headers returned; reading response body
+FAIL Real demo installation sends no cookies and strips URL secrets: 45-second check watchdog elapsed
+Browser checks: 7 passed, 1 failed. 5 axe audits attempted. Test account: chrome-test-1795152282329@pulselite.test; site id: 6.

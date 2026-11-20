@@ -1,0 +1,8 @@
+Observed component-test warning · 20 November 2026, 11:04 Asia/Kolkata
+
+The expanded component suite passed 25 tests, but React server rendering printed this warning twice:
+React expects the children prop of <title> tags to be a string, number, bigint, or object with a novel toString method but found an Array with length 6 instead.
+
+Source: SVG chart point titles used multiple JSX text/value children. Browser journey tests did not report a runtime console error, but the server-rendered component unit tests correctly exposed the issue.
+
+Fix: render each SVG title using a single template-string child. No metric value or chart geometry changed. The original complete warning transcript is reports/20261120-110401-927336-stage6-frontend-unit.txt. A clean unit rerun follows. This warning record is retained despite the test suite initially exiting zero.

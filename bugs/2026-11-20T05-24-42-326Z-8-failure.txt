@@ -1,0 +1,5 @@
+Real demo installation sends no cookies and strips URL secrets
+Error: 45-second check watchdog elapsed
+    at Timeout._onTimeout (file:///Users/softage/Designer%20Projects/starter/pulselite/tests/browser.mjs:32:123)
+    at listOnTimeout (node:internal/timers:685:17)
+    at process.processTimers (node:internal/timers:618:7)

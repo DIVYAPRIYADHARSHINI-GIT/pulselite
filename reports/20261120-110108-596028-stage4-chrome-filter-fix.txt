@@ -1,0 +1,34 @@
+Stage: stage4-chrome-filter-fix
+Time: 20261120-110108-596028 Asia/Kolkata
+Exit: 0
+
+PASS Home renders original identity and illustrative preview
+PASS Keyboard skip link reaches main content
+PASS Signup page and accessibility
+PASS Real signup establishes HTTP-only owner session
+PASS Owner adds exact-origin test website
+PASS Snippet copy button copies real public key
+PASS Unvisited website has install-oriented empty state
+Demo diagnostic: creating visitor browser context
+Demo diagnostic: context created; setting test-only cookie
+Demo diagnostic: cookie set; opening sample website
+Demo diagnostic: form filled; connecting tracker
+Demo diagnostic: collector request and response received
+Demo diagnostic: reading complete network headers
+Demo diagnostic: complete headers returned; no Cookie or Referer
+Demo diagnostic: checking payload/storage; acceptance verified in dashboard next
+Demo diagnostic: privacy assertions passed; screenshot/navigation next
+PASS Real demo installation sends no cookies and strips URL secrets
+PASS Dashboard receives real views and approximate visitor count
+PASS Live view displays actual last-five-minute visitor
+PASS CSV export downloads real aggregated data
+PASS Page filter and preset date ranges update actual query results
+PASS Populated sites list and sign-out/sign-in journey
+PASS Synthetic demo is clearly labelled and SQL-backed
+PASS Direct referrer filter works after regression fix
+PASS Desktop dark theme is persistent and accessible
+PASS Mobile dashboard layout and dark accessibility
+PASS Mobile light dashboard and keyboard filters
+PASS Mobile home and privacy content are accessible
+PASS No unexpected console errors or network failures
+Browser checks: 20 passed, 0 failed. 12 axe audits attempted. Test account: chrome-test-1795152668866@pulselite.test; site id: 11.

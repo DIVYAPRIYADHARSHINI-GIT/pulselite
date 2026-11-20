@@ -1,0 +1,22 @@
+import {chromium} from 'playwright';
+import AxeBuilder from '@axe-core/playwright';
+import {mkdir,writeFile} from 'node:fs/promises';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const run=new Date().toISOString().replaceAll(/[:.]/g,'-');
+const browser=await chromium.launch({executablePath:'/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',headless:true,env:{...process.env,TMPDIR:path.join(root,'tests/.tmp/chrome')}});
+const context=await browser.newContext({viewport:{width:390,height:844},colorScheme:'light'});
+const page=await context.newPage();
+page.setDefaultTimeout(15000);
+const results=[];
+async function check(name,fn){try{await fn();results.push({name,pass:true});console.log('PASS '+name);}catch(e){results.push({name,pass:false,error:e.message});await page.screenshot({path:path.join(root,'bugs',`${run}-extra-${results.length}.png`)});await writeFile(path.join(root,'bugs',`${run}-extra-${results.length}.txt`),e.stack);throw e;}}
+function assert(value,message){if(!value)throw new Error(message);}
+try{
+ await check('Mobile signup dark theme has zero axe violations',async()=>{await page.goto('http://localhost:5173/signup');await page.getByRole('button',{name:'Switch to dark theme'}).click();await page.screenshot({path:path.join(root,'screenshots/17-signup-mobile-dark.png')});const a=await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21aa']).analyze();assert(!a.violations.length,JSON.stringify(a.violations.map(v=>({id:v.id,description:v.description}))));});
+ await check('Loading state is visible and announced while data waits',async()=>{let release;const gate=new Promise(resolve=>release=resolve);await page.route('**/api/demo/stats**',async route=>{await gate;await route.continue();});await page.goto('http://localhost:5173/demo',{waitUntil:'domcontentloaded'});await page.getByRole('status').filter({hasText:'Finding your pulse'}).waitFor();await page.screenshot({path:path.join(root,'screenshots/18-loading.png')});release();await page.getByTestId('pageviews').waitFor();await page.unroute('**/api/demo/stats**');});
+ await check('Friendly error and Retry recover from a simulated service error',async()=>{await page.route('**/api/demo/stats**',route=>route.fulfill({status:503,contentType:'application/json',body:JSON.stringify({detail:'TEST ONLY: service unavailable. Please retry.'})}));await page.reload();await page.getByRole('alert').waitFor();await page.screenshot({path:path.join(root,'screenshots/19-friendly-error.png')});await page.unroute('**/api/demo/stats**');await page.getByRole('button',{name:'Try again',exact:true}).click();await page.getByTestId('pageviews').waitFor();});
+ await check('Custom range and data-table keyboard alternative work',async()=>{await page.getByLabel('Date range',{exact:true}).selectOption('custom');const today=new Date().toISOString().slice(0,10);await page.getByLabel('From',{exact:true}).fill(today);await page.getByLabel('To',{exact:true}).fill(today);await page.getByRole('button',{name:'Update range'}).click();await page.getByTestId('pageviews').waitFor();await page.getByText('View chart data as a table',{exact:true}).focus();await page.keyboard.press('Enter');await page.locator('details[open] table').waitFor();assert(await page.locator('details[open] tbody tr').count()===1,'Custom today range should have one row');});
+ await check('Tablet dashboard has no horizontal overflow',async()=>{for(const width of [768,1024]){await page.setViewportSize({width,height:900});assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),`Overflow at ${width}px`);}await page.screenshot({path:path.join(root,'screenshots/20-tablet.png')});});
+}catch{}
+finally{await writeFile(path.join(root,'reports',`extra-browser-${run}.json`),JSON.stringify({results,passed:results.filter(r=>r.pass).length,failed:results.filter(r=>!r.pass).length,notes:'The 503 response was deliberately injected by the test; not a production incident.'},null,2));await browser.close();console.log(`${results.filter(r=>r.pass).length} passed; ${results.filter(r=>!r.pass).length} failed`);process.exitCode=results.some(r=>!r.pass)?1:0;}

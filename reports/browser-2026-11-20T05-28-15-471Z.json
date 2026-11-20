@@ -1,0 +1,73 @@
+{
+  "run": "2026-11-20T05-28-15-471Z",
+  "browser": "Installed Google Chrome, headless",
+  "base": "http://localhost:5173",
+  "account": "chrome-test-1795152495474@pulselite.test",
+  "siteId": 9,
+  "siteName": "CHROME TEST · Form & Field",
+  "passed": 8,
+  "failed": 1,
+  "results": [
+    {
+      "name": "Home renders original identity and illustrative preview",
+      "pass": true
+    },
+    {
+      "name": "Keyboard skip link reaches main content",
+      "pass": true
+    },
+    {
+      "name": "Signup page and accessibility",
+      "pass": true
+    },
+    {
+      "name": "Real signup establishes HTTP-only owner session",
+      "pass": true
+    },
+    {
+      "name": "Owner adds exact-origin test website",
+      "pass": true
+    },
+    {
+      "name": "Snippet copy button copies real public key",
+      "pass": true
+    },
+    {
+      "name": "Unvisited website has install-oriented empty state",
+      "pass": true
+    },
+    {
+      "name": "Real demo installation sends no cookies and strips URL secrets",
+      "pass": true
+    },
+    {
+      "name": "Dashboard receives real views and approximate visitor count",
+      "pass": false,
+      "error": "Expected 2 real pageviews"
+    }
+  ],
+  "audits": [
+    {
+      "label": "home-desktop-light",
+      "violations": []
+    },
+    {
+      "label": "signup-desktop-light",
+      "violations": []
+    },
+    {
+      "label": "sites-empty",
+      "violations": []
+    },
+    {
+      "label": "snippet",
+      "violations": []
+    },
+    {
+      "label": "empty-dashboard",
+      "violations": []
+    }
+  ],
+  "consoleErrors": [],
+  "failedRequests": []
+}

@@ -1,0 +1,12 @@
+Observed release/configuration problems · 20 November 2026, 10:51 Asia/Kolkata
+
+1. Task t30, a sequential set of Vercel env add commands, was stopped after 1 minute 58 seconds. It printed success for PULSELITE_ENV only, then did not return to run the remaining commands. No secret values were involved. Future configuration uses the supported Vercel API command with a JSON array of non-secret settings, avoiding the stalled env command.
+
+2. First backend build/deployment succeeded, but the first public health request returned:
+HTTP 500
+Content-Type: text/plain; charset=utf-8
+A server error has occurred
+FUNCTION_INVOCATION_FAILED
+bom1::rpthf-1795152107795-20d5635beed9
+
+The initial deployment began before all production variables were configured, due to the stalled preceding task. This is a release-order mistake by the builder, not a successful deployment claim. No frontend deployment will proceed until the public /health passes. Backend configuration and redeployment are required. No DB credential was downloaded or printed.

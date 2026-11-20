@@ -1,0 +1,7 @@
+Actual Designer tool error · 20 November 2026, Asia/Kolkata
+
+observe_editor_view was called with a guessed failure screenshot timestamp ending in 05-19-45-056Z-7-failure.png. It returned ENOENT (file does not exist).
+
+Cause: builder used the test account millisecond timestamp instead of enumerating the artifact filename. A scoped glob found the actual file: 2026-11-20T05-19-45-053Z-7-failure.png.
+
+Resolution: inspect the returned exact path. No file was renamed, deleted or altered. This was an agent path-selection mistake, not a rendering failure.

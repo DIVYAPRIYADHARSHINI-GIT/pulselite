@@ -1,0 +1,15 @@
+Observed test-harness stall · 20 November 2026, approximately 10:49 Asia/Kolkata
+
+Task t23 ran for 1 minute 39 seconds and was explicitly stopped by the builder. The frontend build passed, but the command wrapper buffered all Chrome output, and the Chrome harness had no explicit timeout for pending event requests. Browser screenshots had reached 05-empty-dashboard.png; no completed browser report was produced for this interrupted attempt. No pass count is claimed for this attempt.
+
+Original last visible tool output:
+Stage: stage4-link-build
+Time: 20261120-104720-050319 Asia/Kolkata
+Exit: 0
+vite v7.3.8 building client environment for production...
+43 modules transformed.
+built in 651ms
+
+Action: add explicit 15-second browser timeouts and stream command output while retaining full transcripts. Rerun to expose the underlying issue. This interruption record is permanent, not replaced by the next result.
+
+Account cleanup: a clearly named chrome-test account and CHROME TEST site may have been created in local SQLite during the interrupted run. All local accounts with that prefix will be enumerated and removed during final cleanup; no cloud browser test had run at this point.

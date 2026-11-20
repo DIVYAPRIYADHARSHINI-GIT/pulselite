@@ -1,0 +1,33 @@
+{
+  "database": "local SQLite only",
+  "accounts": [
+    "chrome-test-1795151842547@pulselite.test",
+    "chrome-test-1795151985056@pulselite.test",
+    "chrome-test-1795152066570@pulselite.test",
+    "chrome-test-1795152197909@pulselite.test",
+    "chrome-test-1795152282329@pulselite.test",
+    "chrome-test-1795152363524@pulselite.test",
+    "chrome-test-1795152439113@pulselite.test",
+    "chrome-test-1795152495474@pulselite.test",
+    "chrome-test-1795152552677@pulselite.test",
+    "chrome-test-1795152668866@pulselite.test",
+    "chrome-test-1795152801756@pulselite.test"
+  ],
+  "site_ids": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "events_deleted": 16,
+  "accounts_deleted": 11,
+  "sites_deleted": 11,
+  "hosted_database_touched": false
+}

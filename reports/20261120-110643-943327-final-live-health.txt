@@ -1,0 +1,7 @@
+Stage: final-live-health
+Time: 20261120-110643-943327 Asia/Kolkata
+Exit: 0
+
+GET /health: 200 {"status":"ok","database":"connected"}
+GET /api/demo/stats: 200
+Public health and PostgreSQL demo aggregation: 2 passed; synthetic pageviews: 5719

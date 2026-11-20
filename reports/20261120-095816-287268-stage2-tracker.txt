@@ -1,0 +1,24 @@
+Stage: stage2-tracker
+Time: 20261120-095816-287268 Asia/Kolkata
+Exit: 0
+
+✔ tracker stays below 3 KB uncompressed (1.778166ms)
+✔ one anonymous pageview, credentials omitted and no cookies/storage touched (4.462333ms)
+✔ DNT defaults to no request (0.469084ms)
+✔ explicit owner override sends DNT signal for server enforcement (0.460417ms)
+✔ absent key does nothing (0.443917ms)
+✔ coarse screen category 375 (0.40525ms)
+✔ coarse screen category 767 (0.331083ms)
+✔ coarse screen category 768 (0.387125ms)
+✔ coarse screen category 1023 (1.652625ms)
+✔ coarse screen category 1024 (0.548458ms)
+✔ SPA navigation tracks a new path once, never query-only transitions (0.473333ms)
+✔ network failure is swallowed, not surfaced to host page (0.358791ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 12
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 114.294917

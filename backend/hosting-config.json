@@ -1,0 +1,7 @@
+[
+  {"key":"DASHBOARD_ORIGIN","value":"https://pulselite-web.vercel.app","type":"plain","target":["production"]},
+  {"key":"PULSELITE_BOOTSTRAP","value":"1","type":"plain","target":["production"]},
+  {"key":"PULSELITE_SEED_DEMO","value":"1","type":"plain","target":["production"]},
+  {"key":"RETENTION_DAYS","value":"90","type":"plain","target":["production"]},
+  {"key":"EVENT_RATE_LIMIT","value":"120","type":"plain","target":["production"]}
+]

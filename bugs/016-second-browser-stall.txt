@@ -1,0 +1,5 @@
+Second observed harness stall · 20 November 2026, 10:52 Asia/Kolkata
+
+Task t31 was stopped after 1 minute 35 seconds. Seven checks printed PASS: home, keyboard skip, signup accessibility, real signup, site creation, snippet copy, empty state. Execution then stalled inside the demo-installation check despite context default timeouts. No completed suite total is claimed for this interrupted run.
+
+Next action: add an overall per-check watchdog and progress markers around visitor context creation, cookie setup, page navigation and tracker requests, so operations outside Playwright's default timeout are also bounded. The local test accounts/sites from this attempt will be cleaned up by their explicit CHROME TEST prefix.

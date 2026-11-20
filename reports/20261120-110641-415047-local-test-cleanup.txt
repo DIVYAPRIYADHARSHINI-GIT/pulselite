@@ -1,0 +1,5 @@
+Stage: local-test-cleanup
+Time: 20261120-110641-415047 Asia/Kolkata
+Exit: 0
+
+Deleted 11 labelled local test accounts, 11 test sites and 16 events. Synthetic demo retained. No hosted database touched.

@@ -1,0 +1,44 @@
+Stage: stage5-backend-deploy
+Time: 20261120-105113-236582 Asia/Kolkata
+Exit: 0
+
+Vercel CLI 64.2.0
+Deploying pulselite-backend
+Uploading [--------------------] (0.0B/35.9KB)
+Uploading [======--------------] (10.8KB/35.9KB)
+Uploading [================----] (28.8KB/35.9KB)
+Uploading [=================---] (31.6KB/35.9KB)
+Uploading [====================] (35.9KB/35.9KB)
+  Inspect         https://vercel.com/divya-6411/pulselite-backend/EAJDy25hYuYgtXgS1sYSU26BiEvQ
+  Production      https://pulselite-backend-4rqphty2s-divya-6411.vercel.app
+https://pulselite-backend-4rqphty2s-divya-6411.vercel.appBuilding…
+Building…
+Running build in Washington, D.C., USA (East) – iad1
+Build machine configuration: 2 cores, 8 GB
+Retrieving list of deployment files...
+Previous build caches not available.
+Downloading 21 deployment files...
+Running "vercel build"
+Vercel CLI 66.2.0
+Using Python 3.12 from .python-version
+Using uv 0.13.5 (x86_64-unknown-linux-gnu)
+Creating virtual environment at "/vercel/path0/.vercel/python/.venv"...
+Installing required dependencies from requirements.txt...
+Compiling Python bytecode...
+Build Completed in /vercel/output [6s]
+Deploying outputs...
+[2K[1A[2K[G  Production      https://pulselite-backend-4rqphty2s-divya-6411.vercel.app
+Completing…
+▲ Aliased         https://pulselite-backend.vercel.app
+
+✓ Ready in 18s
+
+! Deployment Protection is on for this project (Vercel Authentication). Use `vercel curl` to access it.
+
+Next steps:
+- Check the production response:
+  vercel curl https://pulselite-backend.vercel.app --scope divya-6411
+- View build logs:
+  vercel inspect pulselite-backend-4rqphty2s-divya-6411.vercel.app --logs --scope divya-6411
+- Create a new deployment from the same source:
+  vercel redeploy pulselite-backend-4rqphty2s-divya-6411.vercel.app --scope divya-6411

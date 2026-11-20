@@ -1,0 +1,17 @@
+Stage: vercel-link-backend
+Time: 20261120-104759-844351 Asia/Kolkata
+Exit: 0
+
+Vercel CLI 64.2.0
+
+  Directory       ~/Designer Projects/starter/pulselite/backend
+
+Searching for existing projects…
+
+✓ Linked          divya-6411/pulselite-backend
+
+Retrieving project…
+> Downloading a fresh `VERCEL_OIDC_TOKEN` for pulselite-backend
+Downloading
+
+✓ Created         .env.local file and added it to .gitignore

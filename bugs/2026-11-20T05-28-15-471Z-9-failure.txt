@@ -1,0 +1,6 @@
+Dashboard receives real views and approximate visitor count
+Error: Expected 2 real pageviews
+    at assert (file:///Users/softage/Designer%20Projects/starter/pulselite/tests/browser.mjs:33:48)
+    at file:///Users/softage/Designer%20Projects/starter/pulselite/tests/browser.mjs:71:167
+    at async check (file:///Users/softage/Designer%20Projects/starter/pulselite/tests/browser.mjs:32:45)
+    at async file:///Users/softage/Designer%20Projects/starter/pulselite/tests/browser.mjs:71:2

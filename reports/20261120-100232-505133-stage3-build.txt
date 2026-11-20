@@ -1,0 +1,16 @@
+Stage: stage3-build
+Time: 20261120-100232-505133 Asia/Kolkata
+Exit: 1
+
+
+> pulselite-frontend@1.0.0 build
+> tsc -b && vite build
+
+vite v7.3.8 building client environment for production...
+transforming...
+✓ 4 modules transformed.
+✗ Build failed in 54ms
+error during build:
+[vite:css] [postcss] ENOENT: no such file or directory, open 'data:text/css,'
+file: /Users/softage/Designer Projects/starter/pulselite/frontend/src/style.css:undefined:NaN
+Error: [postcss] ENOENT: no such file or directory, open 'data:text/css,'

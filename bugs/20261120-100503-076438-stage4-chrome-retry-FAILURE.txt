@@ -1,0 +1,8 @@
+Stage: stage4-chrome-retry
+Time: 20261120-100503-076438 Asia/Kolkata
+Exit: 1
+
+PASS Home renders original identity and illustrative preview
+PASS Keyboard skip link reaches main content
+FAIL Signup page and accessibility: signup-desktop-light: 1 accessibility violations: link-in-text-block
+Browser checks: 2 passed, 1 failed. 2 axe audits attempted. Test account: chrome-test-1795149303388@pulselite.test; site id: not created.

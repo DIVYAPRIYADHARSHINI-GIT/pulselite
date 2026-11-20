@@ -1,0 +1,9 @@
+Stage: stage5-config-retry
+Time: 20261120-105320-178630 Asia/Kolkata
+Exit: 0
+
+DASHBOARD_ORIGIN: exit 0
+PULSELITE_BOOTSTRAP: exit 0
+PULSELITE_SEED_DEMO: exit 0
+RETENTION_DAYS: exit 0
+EVENT_RATE_LIMIT: exit 0

@@ -1,0 +1,5 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "fastapi",
+  "buildCommand": "PULSELITE_TEST_POSTGRES=1 python -m pytest -q --tb=short"
+}

@@ -1,0 +1,8 @@
+Stage: browser-dependencies-patched
+Time: 20261120-095848-847255 Asia/Kolkata
+Exit: 0
+
+
+removed 2 packages, changed 1 package, and audited 6 packages in 738ms
+
+found 0 vulnerabilities

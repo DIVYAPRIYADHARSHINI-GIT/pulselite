@@ -1,0 +1,9 @@
+Unexpected CLI credential-file creation · 20 November 2026, 10:48 Asia/Kolkata
+
+After explicit user permission, `vercel link --yes --project pulselite-backend --scope divya-6411` automatically reported:
+> Downloading a fresh VERCEL_OIDC_TOKEN for pulselite-backend
+> Created .env.local file and added it to .gitignore
+
+No env-pull command was requested. The generated file was never opened/read. It was immediately deleted, unread, and the user was notified. The project root already ignored .env and .env.*; Vercel also created a backend-local ignore rule. The command output contained no token value. Neon was provisioned with the explicit --no-env-pull option.
+
+Subsequent Vercel link help does not expose a no-env-pull flag. Future projects will avoid the link command and use explicit non-secret project IDs/environment configuration instead. This is an observed Vercel CLI behavior, not a Designer failure.

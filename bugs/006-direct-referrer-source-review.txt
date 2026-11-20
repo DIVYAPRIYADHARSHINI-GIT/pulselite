@@ -1,0 +1,12 @@
+PulseLite source-review finding · 20 November 2026, Asia/Kolkata
+
+Observed before Chrome testing, not a runtime screenshot:
+The Top referrers row click handler converted the display label 'Direct' into an empty string. The filter helper interprets an empty string as removing a filter. Therefore clicking Direct could never filter direct traffic.
+
+Actual pre-fix expression:
+onFilter={v=>filter('referrer',v==='Direct'?'':v)}
+
+Resolution:
+Pass the explicit Direct display token from the frontend, and map that token to the stored empty referrer value in the shared SQL predicate builder. This preserves actual empty-referrer SQL filtering while retaining a removable filter chip.
+
+Verification: regression test and Chrome breakdown filtering scheduled in Stage 4. This record is retained independently of the fix.

@@ -1,0 +1,4 @@
+[
+  {"key":"VITE_API_URL","value":"/","type":"plain","target":["production"]},
+  {"key":"VITE_COLLECTOR_URL","value":"https://pulselite-backend.vercel.app","type":"plain","target":["production"]}
+]

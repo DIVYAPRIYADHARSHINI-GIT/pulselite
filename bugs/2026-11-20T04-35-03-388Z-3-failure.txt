@@ -1,0 +1,7 @@
+Signup page and accessibility
+Error: signup-desktop-light: 1 accessibility violations: link-in-text-block
+    at assert (file:///Users/softage/Designer%20Projects/starter/pulselite/tests/browser.mjs:31:48)
+    at audit (file:///Users/softage/Designer%20Projects/starter/pulselite/tests/browser.mjs:33:297)
+    at async file:///Users/softage/Designer%20Projects/starter/pulselite/tests/browser.mjs:38:133
+    at async check (file:///Users/softage/Designer%20Projects/starter/pulselite/tests/browser.mjs:30:35)
+    at async file:///Users/softage/Designer%20Projects/starter/pulselite/tests/browser.mjs:38:2

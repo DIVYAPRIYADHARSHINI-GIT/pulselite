@@ -1,0 +1,15 @@
+{
+  "name": "pulselite-workspace",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "tracker:build": "node tracker/build.mjs",
+    "test:tracker": "node --test tracker/tracker.test.mjs",
+    "test:browser": "node tests/browser.mjs"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.10.2",
+    "playwright": "1.65.1",
+    "marked": "15.0.12"
+  }
+}

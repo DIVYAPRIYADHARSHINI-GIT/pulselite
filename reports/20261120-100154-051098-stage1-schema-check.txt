@@ -1,0 +1,5 @@
+Stage: stage1-schema-check
+Time: 20261120-100154-051098 Asia/Kolkata
+Exit: 0
+
+No new upgrade operations detected.

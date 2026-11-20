@@ -1,0 +1,8 @@
+Real demo installation sends no cookies and strips URL secrets
+page.waitForLoadState: Timeout 15000ms exceeded.
+=========================== logs ===========================
+  "load" event fired
+============================================================
+    at /Users/softage/Designer Projects/starter/pulselite/tests/browser.mjs:69:134
+    at async check (/Users/softage/Designer Projects/starter/pulselite/tests/browser.mjs:32:45)
+    at async file:///Users/softage/Designer%20Projects/starter/pulselite/tests/browser.mjs:46:2

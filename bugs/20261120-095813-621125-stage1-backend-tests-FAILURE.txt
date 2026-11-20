@@ -1,0 +1,239 @@
+Stage: stage1-backend-tests
+Time: 20261120-095813-621125 Asia/Kolkata
+Exit: 1
+
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE....                        [100%]
+==================================== ERRORS ====================================
+___________________ ERROR at setup of test_health_real_query ___________________
+/opt/homebrew/Cellar/python@3.11/3.11.15_4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/pathlib.py:1116: in mkdir
+    os.mkdir(self, mode)
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/softage/Designer Projects/starter/pulselite/tests/.tmp/pytest'
+_______________ ERROR at setup of test_auth_lifecycle_and_hashes _______________
+/opt/homebrew/Cellar/python@3.11/3.11.15_4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/pathlib.py:1116: in mkdir
+    os.mkdir(self, mode)
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/softage/Designer Projects/starter/pulselite/tests/.tmp/pytest'
+_______________ ERROR at setup of test_cookie_security_and_csrf ________________
+/opt/homebrew/Cellar/python@3.11/3.11.15_4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/pathlib.py:1116: in mkdir
+    os.mkdir(self, mode)
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/softage/Designer Projects/starter/pulselite/tests/.tmp/pytest'
+________________ ERROR at setup of test_credentials_do_not_echo ________________
+/opt/homebrew/Cellar/python@3.11/3.11.15_4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/pathlib.py:1116: in mkdir
+    os.mkdir(self, mode)
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/softage/Designer Projects/starter/pulselite/tests/.tmp/pytest'
+_____________ ERROR at setup of test_wrong_password_and_duplicate ______________
+/opt/homebrew/Cellar/python@3.11/3.11.15_4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/pathlib.py:1116: in mkdir
+    os.mkdir(self, mode)
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/softage/Designer Projects/starter/pulselite/tests/.tmp/pytest'
+____________________ ERROR at setup of test_owner_isolation ____________________
+/opt/homebrew/Cellar/python@3.11/3.11.15_4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/pathlib.py:1116: in mkdir
+    os.mkdir(self, mode)
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/softage/Designer Projects/starter/pulselite/tests/.tmp/pytest'
+_ ERROR at setup of test_origin_rejected[https://test.pulselite.test.evil.test] _
+/opt/homebrew/Cellar/python@3.11/3.11.15_4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/pathlib.py:1116: in mkdir
+    os.mkdir(self, mode)
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/softage/Designer Projects/starter/pulselite/tests/.tmp/pytest'
+______ ERROR at setup of test_origin_rejected[http://test.pulselite.test] ______
+/opt/homebrew/Cellar/python@3.11/3.11.15_4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/pathlib.py:1116: in mkdir
+    os.mkdir(self, mode)
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/softage/Designer Projects/starter/pulselite/tests/.tmp/pytest'
+_________________ ERROR at setup of test_origin_rejected[null] _________________
+/opt/homebrew/Cellar/python@3.11/3.11.15_4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/pathlib.py:1116: in mkdir
+    os.mkdir(self, mode)
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/softage/Designer Projects/starter/pulselite/tests/.tmp/pytest'
+___________________ ERROR at setup of test_origin_rejected[] ___________________
+/opt/homebrew/Cellar/python@3.11/3.11.15_4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/pathlib.py:1116: in mkdir
+    os.mkdir(self, mode)
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/softage/Designer Projects/starter/pulselite/tests/.tmp/pytest'
+__________ ERROR at setup of test_origin_rejected[https://evil.test] ___________
+/opt/homebrew/Cellar/python@3.11/3.11.15_4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/pathlib.py:1116: in mkdir
+    os.mkdir(self, mode)
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/softage/Designer Projects/starter/pulselite/tests/.tmp/pytest'
+_____________ ERROR at setup of test_collector_cors_no_credentials _____________
+/opt/homebrew/Cellar/python@3.11/3.11.15_4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/pathlib.py:1116: in mkdir
+    os.mkdir(self, mode)
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/softage/Designer Projects/starter/pulselite/tests/.tmp/pytest'
+______________ ERROR at setup of test_rate_limit_database_backed _______________
+/opt/homebrew/Cellar/python@3.11/3.11.15_4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/pathlib.py:1116: in mkdir
+    os.mkdir(self, mode)
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/softage/Designer Projects/starter/pulselite/tests/.tmp/pytest'
+____________________ ERROR at setup of test_auth_rate_limit ____________________
+/opt/homebrew/Cellar/python@3.11/3.11.15_4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/pathlib.py:1116: in mkdir
+    os.mkdir(self, mode)
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/softage/Designer Projects/starter/pulselite/tests/.tmp/pytest'
+________________ ERROR at setup of test_dnt_and_owner_override _________________
+/opt/homebrew/Cellar/python@3.11/3.11.15_4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/pathlib.py:1116: in mkdir
+    os.mkdir(self, mode)
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/softage/Designer Projects/starter/pulselite/tests/.tmp/pytest'
+______________ ERROR at setup of test_bots_ignored[Googlebot/2.1] ______________
+/opt/homebrew/Cellar/python@3.11/3.11.15_4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/pathlib.py:1116: in mkdir
+    os.mkdir(self, mode)
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/softage/Designer Projects/starter/pulselite/tests/.tmp/pytest'
+_______ ERROR at setup of test_bots_ignored[Mozilla HeadlessChrome/131] ________
+/opt/homebrew/Cellar/python@3.11/3.11.15_4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/pathlib.py:1116: in mkdir
+    os.mkdir(self, mode)
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/softage/Designer Projects/starter/pulselite/tests/.tmp/pytest'
+_________________ ERROR at setup of test_bots_ignored[bingbot] _________________
+/opt/homebrew/Cellar/python@3.11/3.11.15_4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/pathlib.py:1116: in mkdir
+    os.mkdir(self, mode)
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/softage/Designer Projects/starter/pulselite/tests/.tmp/pytest'
+_________________ ERROR at setup of test_bots_ignored[curl/8] __________________
+/opt/homebrew/Cellar/python@3.11/3.11.15_4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/pathlib.py:1116: in mkdir
+    os.mkdir(self, mode)
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/softage/Designer Projects/starter/pulselite/tests/.tmp/pytest'
+___________ ERROR at setup of test_bots_ignored[facebookexternalhit] ___________
+/opt/homebrew/Cellar/python@3.11/3.11.15_4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/pathlib.py:1116: in mkdir
+    os.mkdir(self, mode)
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/softage/Designer Projects/starter/pulselite/tests/.tmp/pytest'
+_________ ERROR at setup of test_impossible_and_extra_values[change0] __________
+/opt/homebrew/Cellar/python@3.11/3.11.15_4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/pathlib.py:1116: in mkdir
+    os.mkdir(self, mode)
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/softage/Designer Projects/starter/pulselite/tests/.tmp/pytest'
+_________ ERROR at setup of test_impossible_and_extra_values[change1] __________
+/opt/homebrew/Cellar/python@3.11/3.11.15_4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/pathlib.py:1116: in mkdir
+    os.mkdir(self, mode)
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/softage/Designer Projects/starter/pulselite/tests/.tmp/pytest'
+_________ ERROR at setup of test_impossible_and_extra_values[change2] __________
+/opt/homebrew/Cellar/python@3.11/3.11.15_4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/pathlib.py:1116: in mkdir
+    os.mkdir(self, mode)
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/softage/Designer Projects/starter/pulselite/tests/.tmp/pytest'
+_________ ERROR at setup of test_impossible_and_extra_values[change3] __________
+/opt/homebrew/Cellar/python@3.11/3.11.15_4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/pathlib.py:1116: in mkdir
+    os.mkdir(self, mode)
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/softage/Designer Projects/starter/pulselite/tests/.tmp/pytest'
+_________ ERROR at setup of test_impossible_and_extra_values[change4] __________
+/opt/homebrew/Cellar/python@3.11/3.11.15_4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/pathlib.py:1116: in mkdir
+    os.mkdir(self, mode)
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/softage/Designer Projects/starter/pulselite/tests/.tmp/pytest'
+_________ ERROR at setup of test_impossible_and_extra_values[change5] __________
+/opt/homebrew/Cellar/python@3.11/3.11.15_4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/pathlib.py:1116: in mkdir
+    os.mkdir(self, mode)
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/softage/Designer Projects/starter/pulselite/tests/.tmp/pytest'
+_________ ERROR at setup of test_impossible_and_extra_values[change6] __________
+/opt/homebrew/Cellar/python@3.11/3.11.15_4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/pathlib.py:1116: in mkdir
+    os.mkdir(self, mode)
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/softage/Designer Projects/starter/pulselite/tests/.tmp/pytest'
+_________ ERROR at setup of test_impossible_and_extra_values[change7] __________
+/opt/homebrew/Cellar/python@3.11/3.11.15_4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/pathlib.py:1116: in mkdir
+    os.mkdir(self, mode)
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/softage/Designer Projects/starter/pulselite/tests/.tmp/pytest'
+_________ ERROR at setup of test_impossible_and_extra_values[change8] __________
+/opt/homebrew/Cellar/python@3.11/3.11.15_4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/pathlib.py:1116: in mkdir
+    os.mkdir(self, mode)
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/softage/Designer Projects/starter/pulselite/tests/.tmp/pytest'
+_______________________ ERROR at setup of test_body_size _______________________
+/opt/homebrew/Cellar/python@3.11/3.11.15_4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/pathlib.py:1116: in mkdir
+    os.mkdir(self, mode)
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/softage/Designer Projects/starter/pulselite/tests/.tmp/pytest'
+________ ERROR at setup of test_no_ip_or_raw_ua_in_any_database_column _________
+/opt/homebrew/Cellar/python@3.11/3.11.15_4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/pathlib.py:1116: in mkdir
+    os.mkdir(self, mode)
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/softage/Designer Projects/starter/pulselite/tests/.tmp/pytest'
+_____________ ERROR at setup of test_untrusted_geo_header_ignored ______________
+/opt/homebrew/Cellar/python@3.11/3.11.15_4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/pathlib.py:1116: in mkdir
+    os.mkdir(self, mode)
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/softage/Designer Projects/starter/pulselite/tests/.tmp/pytest'
+________ ERROR at setup of test_aggregation_filters_prior_dates_and_csv ________
+/opt/homebrew/Cellar/python@3.11/3.11.15_4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/pathlib.py:1116: in mkdir
+    os.mkdir(self, mode)
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/softage/Designer Projects/starter/pulselite/tests/.tmp/pytest'
+___________ ERROR at setup of test_invalid_ranges[start=2025-02-30] ____________
+/opt/homebrew/Cellar/python@3.11/3.11.15_4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/pathlib.py:1116: in mkdir
+    os.mkdir(self, mode)
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/softage/Designer Projects/starter/pulselite/tests/.tmp/pytest'
+____ ERROR at setup of test_invalid_ranges[start=2024-01-01&end=2026-01-01] ____
+/opt/homebrew/Cellar/python@3.11/3.11.15_4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/pathlib.py:1116: in mkdir
+    os.mkdir(self, mode)
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/softage/Designer Projects/starter/pulselite/tests/.tmp/pytest'
+____ ERROR at setup of test_invalid_ranges[start=2026-01-02&end=2026-01-01] ____
+/opt/homebrew/Cellar/python@3.11/3.11.15_4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/pathlib.py:1116: in mkdir
+    os.mkdir(self, mode)
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/softage/Designer Projects/starter/pulselite/tests/.tmp/pytest'
+____________ ERROR at setup of test_invalid_ranges[end=2999-01-01] _____________
+/opt/homebrew/Cellar/python@3.11/3.11.15_4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/pathlib.py:1116: in mkdir
+    os.mkdir(self, mode)
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/softage/Designer Projects/starter/pulselite/tests/.tmp/pytest'
+____________ ERROR at setup of test_invalid_ranges[device=unknown] _____________
+/opt/homebrew/Cellar/python@3.11/3.11.15_4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/pathlib.py:1116: in mkdir
+    os.mkdir(self, mode)
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/softage/Designer Projects/starter/pulselite/tests/.tmp/pytest'
+_____________ ERROR at setup of test_invalid_ranges[country=India] _____________
+/opt/homebrew/Cellar/python@3.11/3.11.15_4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/pathlib.py:1116: in mkdir
+    os.mkdir(self, mode)
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/softage/Designer Projects/starter/pulselite/tests/.tmp/pytest'
+________________________ ERROR at setup of test_cleanup ________________________
+/opt/homebrew/Cellar/python@3.11/3.11.15_4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/pathlib.py:1116: in mkdir
+    os.mkdir(self, mode)
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/softage/Designer Projects/starter/pulselite/tests/.tmp/pytest'
+____ ERROR at setup of test_invalid_site_origin[https://example.test/path] _____
+/opt/homebrew/Cellar/python@3.11/3.11.15_4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/pathlib.py:1116: in mkdir
+    os.mkdir(self, mode)
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/softage/Designer Projects/starter/pulselite/tests/.tmp/pytest'
+_______ ERROR at setup of test_invalid_site_origin[javascript:alert(1)] ________
+/opt/homebrew/Cellar/python@3.11/3.11.15_4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/pathlib.py:1116: in mkdir
+    os.mkdir(self, mode)
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/softage/Designer Projects/starter/pulselite/tests/.tmp/pytest'
+________ ERROR at setup of test_invalid_site_origin[http://public.test] ________
+/opt/homebrew/Cellar/python@3.11/3.11.15_4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/pathlib.py:1116: in mkdir
+    os.mkdir(self, mode)
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/softage/Designer Projects/starter/pulselite/tests/.tmp/pytest'
+__ ERROR at setup of test_invalid_site_origin[https://user:pass@example.test] __
+/opt/homebrew/Cellar/python@3.11/3.11.15_4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/pathlib.py:1116: in mkdir
+    os.mkdir(self, mode)
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/softage/Designer Projects/starter/pulselite/tests/.tmp/pytest'
+____ ERROR at setup of test_invalid_site_origin[https://example.test:99999] ____
+/opt/homebrew/Cellar/python@3.11/3.11.15_4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/pathlib.py:1116: in mkdir
+    os.mkdir(self, mode)
+E   FileNotFoundError: [Errno 2] No such file or directory: '/Users/softage/Designer Projects/starter/pulselite/tests/.tmp/pytest'
+=============================== warnings summary ===============================
+../.venv/lib/python3.11/site-packages/starlette/testclient.py:37
+  /Users/softage/Designer Projects/starter/pulselite/.venv/lib/python3.11/site-packages/starlette/testclient.py:37: DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+    _PortalFactoryType = typing.Callable[[], typing.ContextManager[anyio.abc.BlockingPortal]]
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+ERROR tests/test_api.py::test_health_real_query - FileNotFoundError: [Errno 2...
+ERROR tests/test_api.py::test_auth_lifecycle_and_hashes - FileNotFoundError: ...
+ERROR tests/test_api.py::test_cookie_security_and_csrf - FileNotFoundError: [...
+ERROR tests/test_api.py::test_credentials_do_not_echo - FileNotFoundError: [E...
+ERROR tests/test_api.py::test_wrong_password_and_duplicate - FileNotFoundErro...
+ERROR tests/test_api.py::test_owner_isolation - FileNotFoundError: [Errno 2] ...
+ERROR tests/test_api.py::test_origin_rejected[https://test.pulselite.test.evil.test]
+ERROR tests/test_api.py::test_origin_rejected[http://test.pulselite.test] - F...
+ERROR tests/test_api.py::test_origin_rejected[null] - FileNotFoundError: [Err...
+ERROR tests/test_api.py::test_origin_rejected[] - FileNotFoundError: [Errno 2...
+ERROR tests/test_api.py::test_origin_rejected[https://evil.test] - FileNotFou...
+ERROR tests/test_api.py::test_collector_cors_no_credentials - FileNotFoundErr...
+ERROR tests/test_api.py::test_rate_limit_database_backed - FileNotFoundError:...
+ERROR tests/test_api.py::test_auth_rate_limit - FileNotFoundError: [Errno 2] ...
+ERROR tests/test_api.py::test_dnt_and_owner_override - FileNotFoundError: [Er...
+ERROR tests/test_api.py::test_bots_ignored[Googlebot/2.1] - FileNotFoundError...
+ERROR tests/test_api.py::test_bots_ignored[Mozilla HeadlessChrome/131] - File...
+ERROR tests/test_api.py::test_bots_ignored[bingbot] - FileNotFoundError: [Err...
+ERROR tests/test_api.py::test_bots_ignored[curl/8] - FileNotFoundError: [Errn...
+ERROR tests/test_api.py::test_bots_ignored[facebookexternalhit] - FileNotFoun...
+ERROR tests/test_api.py::test_impossible_and_extra_values[change0] - FileNotF...
+ERROR tests/test_api.py::test_impossible_and_extra_values[change1] - FileNotF...
+ERROR tests/test_api.py::test_impossible_and_extra_values[change2] - FileNotF...
+ERROR tests/test_api.py::test_impossible_and_extra_values[change3] - FileNotF...
+ERROR tests/test_api.py::test_impossible_and_extra_values[change4] - FileNotF...
+ERROR tests/test_api.py::test_impossible_and_extra_values[change5] - FileNotF...
+ERROR tests/test_api.py::test_impossible_and_extra_values[change6] - FileNotF...
+ERROR tests/test_api.py::test_impossible_and_extra_values[change7] - FileNotF...
+ERROR tests/test_api.py::test_impossible_and_extra_values[change8] - FileNotF...
+ERROR tests/test_api.py::test_body_size - FileNotFoundError: [Errno 2] No suc...
+ERROR tests/test_api.py::test_no_ip_or_raw_ua_in_any_database_column - FileNo...
+ERROR tests/test_api.py::test_untrusted_geo_header_ignored - FileNotFoundErro...
+ERROR tests/test_api.py::test_aggregation_filters_prior_dates_and_csv - FileN...
+ERROR tests/test_api.py::test_invalid_ranges[start=2025-02-30] - FileNotFound...
+ERROR tests/test_api.py::test_invalid_ranges[start=2024-01-01&end=2026-01-01]
+ERROR tests/test_api.py::test_invalid_ranges[start=2026-01-02&end=2026-01-01]
+ERROR tests/test_api.py::test_invalid_ranges[end=2999-01-01] - FileNotFoundEr...
+ERROR tests/test_api.py::test_invalid_ranges[device=unknown] - FileNotFoundEr...
+ERROR tests/test_api.py::test_invalid_ranges[country=India] - FileNotFoundErr...
+ERROR tests/test_api.py::test_cleanup - FileNotFoundError: [Errno 2] No such ...
+ERROR tests/test_api.py::test_invalid_site_origin[https://example.test/path]
+ERROR tests/test_api.py::test_invalid_site_origin[javascript:alert(1)] - File...
+ERROR tests/test_api.py::test_invalid_site_origin[http://public.test] - FileN...
+ERROR tests/test_api.py::test_invalid_site_origin[https://user:pass@example.test]
+ERROR tests/test_api.py::test_invalid_site_origin[https://example.test:99999]
+4 passed, 1 warning, 45 errors in 2.39s

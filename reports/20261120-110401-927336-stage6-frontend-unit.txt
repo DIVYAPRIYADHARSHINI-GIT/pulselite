@@ -1,0 +1,25 @@
+Stage: stage6-frontend-unit
+Time: 20261120-110401-927336 Asia/Kolkata
+Exit: 0
+
+
+> pulselite-frontend@1.0.0 test
+> vitest run
+
+
+[1m[30m[46m RUN [49m[39m[22m [36mv5.1.1 [39m[90m/Users/softage/Designer Projects/starter/pulselite/frontend[39m
+
+ [32m✓[39m src/lib.test.ts [2m([22m[2m18 tests[22m[2m)[22m[32m 6[2mms[22m[39m
+[90mstderr[2m | src/components.test.tsx[2m > [22m[2maccessible analytics components[2m > [22m[2mcharts expose exact values in an alternative semantic table
+[22m[39mReact expects the `children` prop of <title> tags to be a string, number, bigint, or object with a novel `toString` method but found an Array with length 6 instead. Browsers treat all child Nodes of <title> tags as Text content and React expects to be able to convert `children` of <title> tags to a single string value which is why Arrays of length greater than 1 are not supported. When using JSX it can be common to combine text nodes and value nodes. For example: <title>hello {nameOfUser}</title>. While not immediately apparent, `children` in this case is an Array with length 2. If your `children` prop is using this form try rewriting it using a template string: <title>{`hello ${nameOfUser}`}</title>.
+
+[90mstderr[2m | src/components.test.tsx[2m > [22m[2maccessible analytics components[2m > [22m[2mempty and zero charts never create NaN coordinates
+[22m[39mReact expects the `children` prop of <title> tags to be a string, number, bigint, or object with a novel `toString` method but found an Array with length 6 instead. Browsers treat all child Nodes of <title> tags as Text content and React expects to be able to convert `children` of <title> tags to a single string value which is why Arrays of length greater than 1 are not supported. When using JSX it can be common to combine text nodes and value nodes. For example: <title>hello {nameOfUser}</title>. While not immediately apparent, `children` in this case is an Array with length 2. If your `children` prop is using this form try rewriting it using a template string: <title>{`hello ${nameOfUser}`}</title>.
+
+ [32m✓[39m src/components.test.tsx [2m([22m[2m7 tests[22m[2m)[22m[32m 64[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m2 passed[39m[22m[90m (2)[39m
+[2m      Tests [22m [1m[32m25 passed[39m[22m[90m (25)[39m
+[2m   Start at [22m 11:04:02
+[2m   Duration [22m 400ms[2m (transform 50%, tests 24%, import 23%, worker 2%)[22m
+

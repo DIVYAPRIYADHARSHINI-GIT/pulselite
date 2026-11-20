@@ -1,0 +1,446 @@
+{
+  "commands": [
+    {
+      "file": "reports/20261120-095657-865260-stage1-install.txt",
+      "exit": 1,
+      "summary": "Command transcript; no test count claimed"
+    },
+    {
+      "file": "reports/20261120-095740-159977-stage1-install-retry.txt",
+      "exit": 0,
+      "summary": "Command transcript; no test count claimed"
+    },
+    {
+      "file": "reports/20261120-095813-621125-stage1-backend-tests.txt",
+      "exit": 1,
+      "summary": "4 passed, 1 warning, 45 errors in 2.39s"
+    },
+    {
+      "file": "reports/20261120-095816-287268-stage2-tracker.txt",
+      "exit": 0,
+      "summary": "Command transcript; no test count claimed"
+    },
+    {
+      "file": "reports/20261120-095816-511677-browser-dependencies.txt",
+      "exit": 0,
+      "summary": "Command transcript; no test count claimed"
+    },
+    {
+      "file": "reports/20261120-095830-832735-dependency-audit.txt",
+      "exit": 1,
+      "summary": "Command transcript; no test count claimed"
+    },
+    {
+      "file": "reports/20261120-095846-463541-stage1-backend-retry.txt",
+      "exit": 0,
+      "summary": "49 passed, 1 warning in 2.75s"
+    },
+    {
+      "file": "reports/20261120-095848-847255-browser-dependencies-patched.txt",
+      "exit": 0,
+      "summary": "found 0 vulnerabilities"
+    },
+    {
+      "file": "reports/20261120-100150-960681-stage3-frontend-install.txt",
+      "exit": 0,
+      "summary": "Command transcript; no test count claimed"
+    },
+    {
+      "file": "reports/20261120-100153-360707-stage1-migration.txt",
+      "exit": 0,
+      "summary": "Command transcript; no test count claimed"
+    },
+    {
+      "file": "reports/20261120-100154-051098-stage1-schema-check.txt",
+      "exit": 0,
+      "summary": "Command transcript; no test count claimed"
+    },
+    {
+      "file": "reports/20261120-100154-370976-stage2-demo-seed.txt",
+      "exit": 0,
+      "summary": "Command transcript; no test count claimed"
+    },
+    {
+      "file": "reports/20261120-100229-904324-frontend-audit.txt",
+      "exit": 1,
+      "summary": "Command transcript; no test count claimed"
+    },
+    {
+      "file": "reports/20261120-100231-332524-stage3-unit.txt",
+      "exit": 0,
+      "summary": "18 passed (18)"
+    },
+    {
+      "file": "reports/20261120-100232-505133-stage3-build.txt",
+      "exit": 1,
+      "summary": "Command transcript; no test count claimed"
+    },
+    {
+      "file": "reports/20261120-100310-094773-stage3-patched-install.txt",
+      "exit": 0,
+      "summary": "found 0 vulnerabilities"
+    },
+    {
+      "file": "reports/20261120-100313-214086-stage3-unit-retry.txt",
+      "exit": 0,
+      "summary": "18 passed\u001b[39m\u001b[22m\u001b[90m (18)\u001b[39m"
+    },
+    {
+      "file": "reports/20261120-100314-139482-stage3-build-retry.txt",
+      "exit": 0,
+      "summary": "Command transcript; no test count claimed"
+    },
+    {
+      "file": "reports/20261120-100401-918808-stage3-backend-regression.txt",
+      "exit": 0,
+      "summary": "53 passed, 1 warning in 2.99s"
+    },
+    {
+      "file": "reports/20261120-100417-745912-stage4-chrome.txt",
+      "exit": 1,
+      "summary": "Browser checks: 0 passed, 1 failed. 1 axe audits attempted. Test account: chrome-test-1795149258020@pulselite.test; site id: not created."
+    },
+    {
+      "file": "reports/20261120-100500-794647-stage4-contrast-build.txt",
+      "exit": 0,
+      "summary": "Command transcript; no test count claimed"
+    },
+    {
+      "file": "reports/20261120-100503-076438-stage4-chrome-retry.txt",
+      "exit": 1,
+      "summary": "Browser checks: 2 passed, 1 failed. 2 axe audits attempted. Test account: chrome-test-1795149303388@pulselite.test; site id: not created."
+    },
+    {
+      "file": "reports/20261120-100503-323415-backend-audit-install.txt",
+      "exit": 0,
+      "summary": "Command transcript; no test count claimed"
+    },
+    {
+      "file": "reports/20261120-100509-553364-backend-audit.txt",
+      "exit": 1,
+      "summary": "Command transcript; no test count claimed"
+    },
+    {
+      "file": "reports/20261120-104647-077729-backend-security-upgrade.txt",
+      "exit": 0,
+      "summary": "Command transcript; no test count claimed"
+    },
+    {
+      "file": "reports/20261120-104720-050319-stage4-link-build.txt",
+      "exit": 0,
+      "summary": "Command transcript; no test count claimed"
+    },
+    {
+      "file": "reports/20261120-104722-522937-backend-security-tests.txt",
+      "exit": 0,
+      "summary": "53 passed, 1 warning in 4.50s"
+    },
+    {
+      "file": "reports/20261120-104727-966043-backend-audit-patched.txt",
+      "exit": 0,
+      "summary": "No known vulnerabilities found"
+    },
+    {
+      "file": "reports/20261120-104745-326991-vercel-create-backend.txt",
+      "exit": 0,
+      "summary": "Command transcript; no test count claimed"
+    },
+    {
+      "file": "reports/20261120-104759-844351-vercel-link-backend.txt",
+      "exit": 0,
+      "summary": "Command transcript; no test count claimed"
+    },
+    {
+      "file": "reports/20261120-104802-493297-neon-free-provision.txt",
+      "exit": 0,
+      "summary": "Command transcript; no test count claimed"
+    },
+    {
+      "file": "reports/20261120-104944-668648-stage4-chrome-timeouts.txt",
+      "exit": 1,
+      "summary": "Browser checks: 6 passed, 1 failed. 4 axe audits attempted. Test account: chrome-test-1795151985056@pulselite.test; site id: 3."
+    },
+    {
+      "file": "reports/20261120-105108-779080-stage5-backend-check.txt",
+      "exit": 0,
+      "summary": "53 passed, 1 warning in 3.78s"
+    },
+    {
+      "file": "reports/20261120-105113-236582-stage5-backend-deploy.txt",
+      "exit": 0,
+      "summary": "Command transcript; no test count claimed"
+    },
+    {
+      "file": "reports/20261120-105221-370032-stage5-backend-config.txt",
+      "exit": 1,
+      "summary": "Command transcript; no test count claimed"
+    },
+    {
+      "file": "reports/20261120-105317-580130-stage4-chrome-instrumented.txt",
+      "exit": 1,
+      "summary": "Browser checks: 7 passed, 1 failed. 5 axe audits attempted. Test account: chrome-test-1795152197909@pulselite.test; site id: 5."
+    },
+    {
+      "file": "reports/20261120-105320-178630-stage5-config-retry.txt",
+      "exit": 0,
+      "summary": "Command transcript; no test count claimed"
+    },
+    {
+      "file": "reports/20261120-105326-114252-stage5-backend-configured.txt",
+      "exit": 0,
+      "summary": "Command transcript; no test count claimed"
+    },
+    {
+      "file": "reports/20261120-105408-065778-stage5-live-health.txt",
+      "exit": 0,
+      "summary": "2 passed; synthetic pageviews: 5719"
+    },
+    {
+      "file": "reports/20261120-105442-016123-stage4-chrome-network-diagnostic.txt",
+      "exit": 1,
+      "summary": "Browser checks: 7 passed, 1 failed. 5 axe audits attempted. Test account: chrome-test-1795152282329@pulselite.test; site id: 6."
+    },
+    {
+      "file": "reports/20261120-105444-628621-stage5-create-web-projects.txt",
+      "exit": 0,
+      "summary": "Command transcript; no test count claimed"
+    },
+    {
+      "file": "reports/20261120-105544-718994-stage5-frontend-config.txt",
+      "exit": 0,
+      "summary": "Command transcript; no test count claimed"
+    },
+    {
+      "file": "reports/20261120-105546-988971-stage5-frontend-deploy.txt",
+      "exit": 0,
+      "summary": "Command transcript; no test count claimed"
+    },
+    {
+      "file": "reports/20261120-105603-203624-stage4-chrome-patched-runtime.txt",
+      "exit": 1,
+      "summary": "Browser checks: 7 passed, 1 failed. 5 axe audits attempted. Test account: chrome-test-1795152363524@pulselite.test; site id: 7."
+    },
+    {
+      "file": "reports/20261120-105718-692456-stage4-chrome-keepalive-fix.txt",
+      "exit": 1,
+      "summary": "Browser checks: 7 passed, 1 failed. 5 axe audits attempted. Test account: chrome-test-1795152439113@pulselite.test; site id: 8."
+    },
+    {
+      "file": "reports/20261120-105721-250315-stage5-demo-deploy.txt",
+      "exit": 0,
+      "summary": "Command transcript; no test count claimed"
+    },
+    {
+      "file": "reports/20261120-105814-997223-tracker-drain-tests.txt",
+      "exit": 0,
+      "summary": "Command transcript; no test count claimed"
+    },
+    {
+      "file": "reports/20261120-105815-183517-stage4-chrome-response-drain.txt",
+      "exit": 1,
+      "summary": "Browser checks: 8 passed, 1 failed. 5 axe audits attempted. Test account: chrome-test-1795152495474@pulselite.test; site id: 9."
+    },
+    {
+      "file": "reports/20261120-105912-291428-stage4-chrome-metric-waits.txt",
+      "exit": 1,
+      "summary": "Browser checks: 11 passed, 1 failed. 6 axe audits attempted. Test account: chrome-test-1795152552677@pulselite.test; site id: 10."
+    },
+    {
+      "file": "reports/20261120-105915-281158-stage5-sqlite-final.txt",
+      "exit": 0,
+      "summary": "53 passed, 1 warning in 4.03s"
+    },
+    {
+      "file": "reports/20261120-105920-214356-stage5-postgres-build.txt",
+      "exit": 1,
+      "summary": "3 failed, 5 passed, 1 warning, 45 errors in 22.08s"
+    },
+    {
+      "file": "reports/20261120-110106-477947-stage4-filter-fix-build.txt",
+      "exit": 0,
+      "summary": "Command transcript; no test count claimed"
+    },
+    {
+      "file": "reports/20261120-110108-596028-stage4-chrome-filter-fix.txt",
+      "exit": 0,
+      "summary": "Browser checks: 20 passed, 0 failed. 12 axe audits attempted. Test account: chrome-test-1795152668866@pulselite.test; site id: 11."
+    },
+    {
+      "file": "reports/20261120-110109-079912-stage5-postgres-direct-retry.txt",
+      "exit": 0,
+      "summary": "53 passed, 437 warnings in 24.74s"
+    },
+    {
+      "file": "reports/20261120-110318-847979-stage5-frontend-final-deploy.txt",
+      "exit": 0,
+      "summary": "Command transcript; no test count claimed"
+    },
+    {
+      "file": "reports/20261120-110321-452759-stage4-local-final-captures.txt",
+      "exit": 0,
+      "summary": "Browser checks: 20 passed, 0 failed. 12 axe audits attempted. Test account: chrome-test-1795152801756@pulselite.test; site id: 12."
+    },
+    {
+      "file": "reports/20261120-110359-290765-stage5-live-chrome.txt",
+      "exit": 0,
+      "summary": "Browser checks: 20 passed, 0 failed. 12 axe audits attempted. Test account: chrome-test-1795152839693@pulselite.test; site id: 2."
+    },
+    {
+      "file": "reports/20261120-110401-927336-stage6-frontend-unit.txt",
+      "exit": 0,
+      "summary": "25 passed\u001b[39m\u001b[22m\u001b[90m (25)\u001b[39m"
+    },
+    {
+      "file": "reports/20261120-110402-878154-stage6-frontend-audit.txt",
+      "exit": 0,
+      "summary": "found 0 vulnerabilities"
+    },
+    {
+      "file": "reports/20261120-110403-660880-stage6-frontend-build.txt",
+      "exit": 0,
+      "summary": "Command transcript; no test count claimed"
+    },
+    {
+      "file": "reports/20261120-110404-703376-stage6-extra-browser.txt",
+      "exit": 1,
+      "summary": "0 passed; 1 failed"
+    },
+    {
+      "file": "reports/20261120-110516-411237-stage6-unit-clean.txt",
+      "exit": 0,
+      "summary": "25 passed\u001b[39m\u001b[22m\u001b[90m (25)\u001b[39m"
+    },
+    {
+      "file": "reports/20261120-110517-414728-stage6-build-clean.txt",
+      "exit": 0,
+      "summary": "Command transcript; no test count claimed"
+    },
+    {
+      "file": "reports/20261120-110519-511233-stage6-extra-browser-retry.txt",
+      "exit": 0,
+      "summary": "5 passed; 0 failed"
+    },
+    {
+      "file": "reports/20261120-110641-415047-local-test-cleanup.txt",
+      "exit": 0,
+      "summary": "Command transcript; no test count claimed"
+    }
+  ],
+  "bug_artifacts": [
+    "bugs/006-direct-referrer-source-review.txt",
+    "bugs/010-chrome-harness-stall.txt",
+    "bugs/011-vercel-automatic-env-file.txt",
+    "bugs/013-screenshot-inspection-path-error.txt",
+    "bugs/014-production-config-and-cli-stall.txt",
+    "bugs/016-second-browser-stall.txt",
+    "bugs/020-keepalive-body-diagnosis.txt",
+    "bugs/025-react-svg-title-warning.txt",
+    "bugs/2026-11-20T04-34-18-019Z-1-failure.png",
+    "bugs/2026-11-20T04-34-18-019Z-1-failure.txt",
+    "bugs/2026-11-20T04-34-18-019Z-browser-diagnostic.json",
+    "bugs/2026-11-20T04-35-03-388Z-3-failure.png",
+    "bugs/2026-11-20T04-35-03-388Z-3-failure.txt",
+    "bugs/2026-11-20T04-35-03-388Z-browser-diagnostic.json",
+    "bugs/2026-11-20T05-17-22-547Z-8-failure.txt",
+    "bugs/2026-11-20T05-17-22-547Z-browser-diagnostic.json",
+    "bugs/2026-11-20T05-19-45-053Z-7-failure.png",
+    "bugs/2026-11-20T05-19-45-053Z-7-failure.txt",
+    "bugs/2026-11-20T05-19-45-053Z-browser-diagnostic.json",
+    "bugs/2026-11-20T05-21-06-568Z-8-failure.txt",
+    "bugs/2026-11-20T05-21-06-568Z-browser-diagnostic.json",
+    "bugs/2026-11-20T05-23-17-906Z-8-failure.png",
+    "bugs/2026-11-20T05-23-17-906Z-8-failure.txt",
+    "bugs/2026-11-20T05-23-17-906Z-browser-diagnostic.json",
+    "bugs/2026-11-20T05-24-42-326Z-8-failure.png",
+    "bugs/2026-11-20T05-24-42-326Z-8-failure.txt",
+    "bugs/2026-11-20T05-24-42-326Z-browser-diagnostic.json",
+    "bugs/2026-11-20T05-26-03-520Z-8-failure.png",
+    "bugs/2026-11-20T05-26-03-520Z-8-failure.txt",
+    "bugs/2026-11-20T05-26-03-520Z-browser-diagnostic.json",
+    "bugs/2026-11-20T05-27-19-111Z-8-failure.png",
+    "bugs/2026-11-20T05-27-19-111Z-8-failure.txt",
+    "bugs/2026-11-20T05-27-19-111Z-browser-diagnostic.json",
+    "bugs/2026-11-20T05-28-15-471Z-9-failure.png",
+    "bugs/2026-11-20T05-28-15-471Z-9-failure.txt",
+    "bugs/2026-11-20T05-28-15-471Z-browser-diagnostic.json",
+    "bugs/2026-11-20T05-29-12-675Z-12-failure.png",
+    "bugs/2026-11-20T05-29-12-675Z-12-failure.txt",
+    "bugs/2026-11-20T05-29-12-675Z-browser-diagnostic.json",
+    "bugs/2026-11-20T05-34-05-050Z-extra-1.png",
+    "bugs/2026-11-20T05-34-05-050Z-extra-1.txt",
+    "bugs/20261120-095657-865260-stage1-install-FAILURE.txt",
+    "bugs/20261120-095813-621125-stage1-backend-tests-FAILURE.txt",
+    "bugs/20261120-095830-832735-dependency-audit-FAILURE.txt",
+    "bugs/20261120-100229-904324-frontend-audit-FAILURE.txt",
+    "bugs/20261120-100232-505133-stage3-build-FAILURE.txt",
+    "bugs/20261120-100417-745912-stage4-chrome-FAILURE.txt",
+    "bugs/20261120-100503-076438-stage4-chrome-retry-FAILURE.txt",
+    "bugs/20261120-100509-553364-backend-audit-FAILURE.txt",
+    "bugs/20261120-104944-668648-stage4-chrome-timeouts-FAILURE.txt",
+    "bugs/20261120-105221-370032-stage5-backend-config-FAILURE.txt",
+    "bugs/20261120-105317-580130-stage4-chrome-instrumented-FAILURE.txt",
+    "bugs/20261120-105442-016123-stage4-chrome-network-diagnostic-FAILURE.txt",
+    "bugs/20261120-105603-203624-stage4-chrome-patched-runtime-FAILURE.txt",
+    "bugs/20261120-105718-692456-stage4-chrome-keepalive-fix-FAILURE.txt",
+    "bugs/20261120-105815-183517-stage4-chrome-response-drain-FAILURE.txt",
+    "bugs/20261120-105912-291428-stage4-chrome-metric-waits-FAILURE.txt",
+    "bugs/20261120-105920-214356-stage5-postgres-build-FAILURE.txt",
+    "bugs/20261120-110404-703376-stage6-extra-browser-FAILURE.txt"
+  ],
+  "screenshots": [
+    "screenshots/01-home.png",
+    "screenshots/02-signup.png",
+    "screenshots/03-sites-empty.png",
+    "screenshots/04-snippet.png",
+    "screenshots/05-empty-dashboard-viewport.png",
+    "screenshots/05-empty-dashboard.png",
+    "screenshots/06-demo-site-connected.png",
+    "screenshots/07-real-dashboard-viewport.png",
+    "screenshots/07-real-dashboard.png",
+    "screenshots/08-live-view-viewport.png",
+    "screenshots/08-live-view.png",
+    "screenshots/09-export.png",
+    "screenshots/10-sites-populated.png",
+    "screenshots/11-dashboard-light-viewport.png",
+    "screenshots/11-dashboard-light.png",
+    "screenshots/12-dashboard-dark-viewport.png",
+    "screenshots/12-dashboard-dark.png",
+    "screenshots/13-mobile-dark-viewport.png",
+    "screenshots/13-mobile-dark.png",
+    "screenshots/14-mobile-light-viewport.png",
+    "screenshots/14-mobile-light.png",
+    "screenshots/15-home-mobile-viewport.png",
+    "screenshots/15-home-mobile.png",
+    "screenshots/16-privacy-mobile-viewport.png",
+    "screenshots/16-privacy-mobile.png",
+    "screenshots/17-signup-mobile-dark.png",
+    "screenshots/18-loading.png",
+    "screenshots/19-friendly-error.png",
+    "screenshots/20-tablet.png",
+    "screenshots/live-01-home.png",
+    "screenshots/live-02-signup.png",
+    "screenshots/live-03-sites-empty.png",
+    "screenshots/live-04-snippet.png",
+    "screenshots/live-05-empty-dashboard-viewport.png",
+    "screenshots/live-05-empty-dashboard.png",
+    "screenshots/live-06-demo-site-connected.png",
+    "screenshots/live-07-real-dashboard-viewport.png",
+    "screenshots/live-07-real-dashboard.png",
+    "screenshots/live-08-live-view-viewport.png",
+    "screenshots/live-08-live-view.png",
+    "screenshots/live-09-export.png",
+    "screenshots/live-10-sites-populated.png",
+    "screenshots/live-11-dashboard-light-viewport.png",
+    "screenshots/live-11-dashboard-light.png",
+    "screenshots/live-12-dashboard-dark-viewport.png",
+    "screenshots/live-12-dashboard-dark.png",
+    "screenshots/live-13-mobile-dark-viewport.png",
+    "screenshots/live-13-mobile-dark.png",
+    "screenshots/live-14-mobile-light-viewport.png",
+    "screenshots/live-14-mobile-light.png",
+    "screenshots/live-15-home-mobile-viewport.png",
+    "screenshots/live-15-home-mobile.png",
+    "screenshots/live-16-privacy-mobile-viewport.png",
+    "screenshots/live-16-privacy-mobile.png"
+  ]
+}

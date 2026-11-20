@@ -1,0 +1,7 @@
+Stage: vercel-create-backend
+Time: 20261120-104745-326991 Asia/Kolkata
+Exit: 0
+
+Vercel CLI 64.2.0
+! `vercel project add` is deprecated. Use `vercel project create`.
+> Success! Project pulselite-backend added (divya-6411) [582ms]

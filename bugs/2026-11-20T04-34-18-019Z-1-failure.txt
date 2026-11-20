@@ -1,0 +1,7 @@
+Home renders original identity and illustrative preview
+Error: home-desktop-light: 1 accessibility violations: color-contrast
+    at assert (file:///Users/softage/Designer%20Projects/starter/pulselite/tests/browser.mjs:31:48)
+    at audit (file:///Users/softage/Designer%20Projects/starter/pulselite/tests/browser.mjs:33:297)
+    at async file:///Users/softage/Designer%20Projects/starter/pulselite/tests/browser.mjs:36:244
+    at async check (file:///Users/softage/Designer%20Projects/starter/pulselite/tests/browser.mjs:30:35)
+    at async file:///Users/softage/Designer%20Projects/starter/pulselite/tests/browser.mjs:36:2

@@ -1,0 +1,11 @@
+Collector keepalive inspection diagnosis · 20 November 2026, approximately 10:57 Asia/Kolkata
+
+Instrumentation narrowed the browser-suite stall to Playwright response.json() on the tracker fetch with keepalive:true. Browser context creation, cookie setup, form submission, the actual collector response, and request.allHeaders() all returned. Network headers already proved that neither Cookie nor Referer was sent.
+
+Restarting the local backend on the newly patched FastAPI/Starlette stack did not change this behavior. A separate real HTTP client request against the same running collector completed within the 5-second timeout:
+Direct collector HTTP status: 202
+Response body: {"accepted":true}
+
+That diagnostic request used the explicitly labelled local CHROME TEST site id 2 and path /__network-probe; it will be removed with the other local test accounts.
+
+Resolution in browser harness: do not await the stalled DevTools response body. Retain the actual network-header assertions, 202 status, payload/storage checks, and prove server acceptance through the next owner's SQL-backed dashboard assertion (exactly 2 pageviews and 1 daily visitor). HTTP 202 alone is deliberately insufficient because ignored bots also receive 202. This workaround changes test instrumentation, not the tracker or product behavior. The original failed and interrupted attempts remain saved.

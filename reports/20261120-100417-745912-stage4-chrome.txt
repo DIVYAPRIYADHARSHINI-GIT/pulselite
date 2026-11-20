@@ -1,0 +1,6 @@
+Stage: stage4-chrome
+Time: 20261120-100417-745912 Asia/Kolkata
+Exit: 1
+
+FAIL Home renders original identity and illustrative preview: home-desktop-light: 1 accessibility violations: color-contrast
+Browser checks: 0 passed, 1 failed. 1 axe audits attempted. Test account: chrome-test-1795149258020@pulselite.test; site id: not created.

@@ -1,0 +1,6 @@
+Stage: stage5-frontend-config
+Time: 20261120-105544-718994 Asia/Kolkata
+Exit: 0
+
+VITE_API_URL: exit 0
+VITE_COLLECTOR_URL: exit 0

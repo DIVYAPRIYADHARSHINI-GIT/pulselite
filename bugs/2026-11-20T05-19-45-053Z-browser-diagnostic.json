@@ -1,0 +1,61 @@
+{
+  "run": "2026-11-20T05-19-45-053Z",
+  "browser": "Installed Google Chrome, headless",
+  "base": "http://localhost:5173",
+  "account": "chrome-test-1795151985056@pulselite.test",
+  "siteId": 3,
+  "siteName": "CHROME TEST · Form & Field",
+  "passed": 6,
+  "failed": 1,
+  "results": [
+    {
+      "name": "Home renders original identity and illustrative preview",
+      "pass": true
+    },
+    {
+      "name": "Keyboard skip link reaches main content",
+      "pass": true
+    },
+    {
+      "name": "Signup page and accessibility",
+      "pass": true
+    },
+    {
+      "name": "Real signup establishes HTTP-only owner session",
+      "pass": true
+    },
+    {
+      "name": "Owner adds exact-origin test website",
+      "pass": true
+    },
+    {
+      "name": "Snippet copy button copies real public key",
+      "pass": true
+    },
+    {
+      "name": "Unvisited website has install-oriented empty state",
+      "pass": false,
+      "error": "Missing empty state"
+    }
+  ],
+  "audits": [
+    {
+      "label": "home-desktop-light",
+      "violations": []
+    },
+    {
+      "label": "signup-desktop-light",
+      "violations": []
+    },
+    {
+      "label": "sites-empty",
+      "violations": []
+    },
+    {
+      "label": "snippet",
+      "violations": []
+    }
+  ],
+  "consoleErrors": [],
+  "failedRequests": []
+}

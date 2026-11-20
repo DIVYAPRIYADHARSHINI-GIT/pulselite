@@ -1,0 +1,44 @@
+{
+  "run": "2026-11-20T04-34-18-019Z",
+  "browser": "Installed Google Chrome, headless",
+  "base": "http://localhost:5173",
+  "account": "chrome-test-1795149258020@pulselite.test",
+  "siteName": "CHROME TEST · Form & Field",
+  "passed": 0,
+  "failed": 1,
+  "results": [
+    {
+      "name": "Home renders original identity and illustrative preview",
+      "pass": false,
+      "error": "home-desktop-light: 1 accessibility violations: color-contrast"
+    }
+  ],
+  "audits": [
+    {
+      "label": "home-desktop-light",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "nodes": [
+            {
+              "html": "<span class=\"feature-number\">01</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.46 (foreground color: #8fa5a1, background color: #f7f9f9, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "html": "<span class=\"feature-number\">02</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.46 (foreground color: #8fa5a1, background color: #f7f9f9, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+            },
+            {
+              "html": "<span class=\"feature-number\">03</span>",
+              "summary": "Fix any of the following:\n  Element has insufficient color contrast of 2.46 (foreground color: #8fa5a1, background color: #f7f9f9, font size: 8.3pt (11px), font weight: normal). Expected contrast ratio of 4.5:1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "consoleErrors": [],
+  "failedRequests": []
+}

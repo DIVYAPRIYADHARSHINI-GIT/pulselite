@@ -1,0 +1,5 @@
+Real demo installation sends no cookies and strips URL secrets
+response.json: Target page, context or browser has been closed
+    at /Users/softage/Designer Projects/starter/pulselite/tests/browser.mjs:51:259
+    at async check (/Users/softage/Designer Projects/starter/pulselite/tests/browser.mjs:30:35)
+    at async file:///Users/softage/Designer%20Projects/starter/pulselite/tests/browser.mjs:44:2

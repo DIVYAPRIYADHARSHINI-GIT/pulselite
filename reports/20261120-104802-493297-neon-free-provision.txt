@@ -1,0 +1,13 @@
+Stage: neon-free-provision
+Time: 20261120-104802-493297 Asia/Kolkata
+Exit: 0
+
+Vercel CLI 64.2.0
+> Installing Neon by Neon under divya-6411
+Provisioning resource...
+> Success! Neon successfully provisioned: pulselite-postgres
+>     Guide: Run `vercel integration guide neon` for getting started guides and code snippets
+>     Dashboard: https://vercel.com/d/dashboard/integrations/neon/icfg_QuSEW7iSDg8MswzAUcen9wOf/resources/store_mWX277nHOouWAUfO
+Retrieving project…
+Connecting pulselite-postgres to pulselite-backend...
+> pulselite-postgres successfully connected to pulselite-backend

@@ -1,0 +1,12 @@
+Stage: stage5-backend-check
+Time: 20261120-105108-779080 Asia/Kolkata
+Exit: 0
+
+.....................................................                    [100%]
+=============================== warnings summary ===============================
+../.venv/lib/python3.11/site-packages/fastapi/testclient.py:1
+  /Users/softage/Designer Projects/starter/pulselite/.venv/lib/python3.11/site-packages/fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+    from starlette.testclient import TestClient as TestClient  # noqa
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+53 passed, 1 warning in 3.78s

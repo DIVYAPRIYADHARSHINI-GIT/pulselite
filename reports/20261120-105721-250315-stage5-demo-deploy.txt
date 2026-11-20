@@ -1,0 +1,37 @@
+Stage: stage5-demo-deploy
+Time: 20261120-105721-250315 Asia/Kolkata
+Exit: 0
+
+Vercel CLI 64.2.0
+Retrieving project…
+Deploying divya-6411/pulselite-demo
+Uploading [--------------------] (0.0B/6.9KB)
+Uploading [=======-------------] (2.6KB/6.9KB)
+Uploading [================----] (5.6KB/6.9KB)
+Uploading [====================] (6.9KB/6.9KB)
+  Inspect         https://vercel.com/divya-6411/pulselite-demo/C1TsMQkCDQYfB79Sx2V5GMHo1f4Y
+  Production      https://pulselite-demo-e56s75gaf-divya-6411.vercel.app
+https://pulselite-demo-e56s75gaf-divya-6411.vercel.appBuilding…
+Building…
+Running build in Washington, D.C., USA (East) – iad1
+Build machine configuration: 2 cores, 8 GB
+Retrieving list of deployment files...
+Previous build caches not available.
+Downloading 4 deployment files...
+Running "vercel build"
+Vercel CLI 66.2.0
+[2K[1A[2K[G  Production      https://pulselite-demo-e56s75gaf-divya-6411.vercel.app
+Completing…
+▲ Aliased         https://pulselite-demo.vercel.app
+
+✓ Ready in 5s
+
+! Deployment Protection is on for this project (Vercel Authentication). Use `vercel curl` to access it.
+
+Next steps:
+- Check the production response:
+  vercel curl https://pulselite-demo.vercel.app --scope divya-6411
+- View build logs:
+  vercel inspect pulselite-demo-e56s75gaf-divya-6411.vercel.app --logs --scope divya-6411
+- Create a new deployment from the same source:
+  vercel redeploy pulselite-demo-e56s75gaf-divya-6411.vercel.app --scope divya-6411

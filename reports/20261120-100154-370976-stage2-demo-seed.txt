@@ -1,0 +1,5 @@
+Stage: stage2-demo-seed
+Time: 20261120-100154-370976 Asia/Kolkata
+Exit: 0
+
+Seeded 5719 synthetic events across 30 UTC days. Demo is explicitly labeled.

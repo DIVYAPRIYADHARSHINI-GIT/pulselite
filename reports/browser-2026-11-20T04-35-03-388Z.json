@@ -1,0 +1,48 @@
+{
+  "run": "2026-11-20T04-35-03-388Z",
+  "browser": "Installed Google Chrome, headless",
+  "base": "http://localhost:5173",
+  "account": "chrome-test-1795149303388@pulselite.test",
+  "siteName": "CHROME TEST · Form & Field",
+  "passed": 2,
+  "failed": 1,
+  "results": [
+    {
+      "name": "Home renders original identity and illustrative preview",
+      "pass": true
+    },
+    {
+      "name": "Keyboard skip link reaches main content",
+      "pass": true
+    },
+    {
+      "name": "Signup page and accessibility",
+      "pass": false,
+      "error": "signup-desktop-light: 1 accessibility violations: link-in-text-block"
+    }
+  ],
+  "audits": [
+    {
+      "label": "home-desktop-light",
+      "violations": []
+    },
+    {
+      "label": "signup-desktop-light",
+      "violations": [
+        {
+          "id": "link-in-text-block",
+          "impact": "serious",
+          "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+          "nodes": [
+            {
+              "html": "<a href=\"/privacy\" data-discover=\"true\">See the details.</a>",
+              "summary": "Fix any of the following:\n  The link has insufficient color contrast of 1.06:1 with the surrounding text. (Minimum contrast is 3:1, link text: #08776b, surrounding text: #607175)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "consoleErrors": [],
+  "failedRequests": []
+}

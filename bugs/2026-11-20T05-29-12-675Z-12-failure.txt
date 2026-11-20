@@ -1,0 +1,9 @@
+Page filter and preset date ranges update actual query results
+locator.waitFor: Timeout 15000ms exceeded.
+Call log:
+  - waiting for getByTestId('pageviews').filter({ hasText: /^2$/ }) to be visible
+
+    at metric (/Users/softage/Designer Projects/starter/pulselite/tests/browser.mjs:34:107)
+    at /Users/softage/Designer Projects/starter/pulselite/tests/browser.mjs:75:414
+    at async check (/Users/softage/Designer Projects/starter/pulselite/tests/browser.mjs:32:45)
+    at async file:///Users/softage/Designer%20Projects/starter/pulselite/tests/browser.mjs:75:2

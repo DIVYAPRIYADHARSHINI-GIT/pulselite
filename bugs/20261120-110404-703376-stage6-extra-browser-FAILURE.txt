@@ -1,0 +1,5 @@
+Stage: stage6-extra-browser
+Time: 20261120-110404-703376 Asia/Kolkata
+Exit: 1
+
+0 passed; 1 failed

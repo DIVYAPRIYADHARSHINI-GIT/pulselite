@@ -1,0 +1,12 @@
+Stage: stage4-chrome-timeouts
+Time: 20261120-104944-668648 Asia/Kolkata
+Exit: 1
+
+PASS Home renders original identity and illustrative preview
+PASS Keyboard skip link reaches main content
+PASS Signup page and accessibility
+PASS Real signup establishes HTTP-only owner session
+PASS Owner adds exact-origin test website
+PASS Snippet copy button copies real public key
+FAIL Unvisited website has install-oriented empty state: Missing empty state
+Browser checks: 6 passed, 1 failed. 4 axe audits attempted. Test account: chrome-test-1795151985056@pulselite.test; site id: 3.
